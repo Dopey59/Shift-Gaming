@@ -15,19 +15,19 @@ import Parallax from '../components/parallax-slider';
 export default function Homepage(){
     
     return(
-        <main className=''>
-            <div className=''>
+        <main className='overflow-x-hidden'>
+            <div>
                 <Banner/>
             </div>
 
-            <div className='h-screen bg-gradient-to-tr from-zinc-900 to-slate-900 text-white'>
+            <div className='bg-gradient-to-tr from-zinc-900 to-slate-900 text-white'>
                 <Steelseries />
                 <Logitech />
             </div>
             
             <div>
                 <h1 className='flex py-16 flex-col justify-center items-center
-                text-4xl bg-gradient-to-tr from-zinc-800 to-slate-900 text-white'>Obtiens tout tes jeux moins chers et rapidement avec Instant Gaming.</h1>
+                sm:text-4xl  bg-gradient-to-tr from-zinc-800 to-slate-900 text-white'>Obtiens tout tes jeux moins chers et rapidement avec Instant Gaming.</h1>
                 <Carousel/>
             </div>
             

@@ -34,8 +34,7 @@ export default function Carousel() {
             <h1 className='text-5xl text-center'>Actuellement à -26% sur PC et XBOX</h1>
             <p>Plonge dans unviers étoilés par les créateurs de Skyrim et Fallout 4.</p>
             <a className="bg-orange-500 font-bold text-white p-2 text-center text-xl rounded-md hover:bg-orange-600"
-             href='https://www.instant-gaming.com/?igr=gamer-7232d0
-            ' target='_blank'>En profiter</a>
+             href='https://www.instant-gaming.com/?igr=gamer-7232d0'>En profiter</a>
           </div>
         </div>
 
@@ -47,7 +46,7 @@ export default function Carousel() {
             <p>Détruis tes ennemies avec des nouveaux finishers plus meurtirers les uns que les autres.</p>
             <a className="bg-orange-500 font-bold text-white p-2 text-center text-xl rounded-md hover:bg-orange-600"
              href='https://www.instant-gaming.com/?igr=gamer-7232d0
-            ' target='_blank'>En profiter</a>
+            ' >En profiter</a>
 
           </div>
         </div>
@@ -60,7 +59,7 @@ export default function Carousel() {
             <p>Incarne Basim et explore les rues de Bagdad dans ce nouvel opus iconic de chez Ubisoft.</p>
             <a className="bg-orange-500 font-bold text-white p-2 text-center text-xl rounded-md hover:bg-orange-600"
              href='https://www.instant-gaming.com/?igr=gamer-7232d0
-            ' target='_blank'>En profiter</a>
+            ' >En profiter</a>
           </div>
         </div>
       </div>
