@@ -4,25 +4,25 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Steelseries() {
   return (
-    <main className="w-full sm:py-14">
+    <main className="w-full pb-14">
       {/* Steelseries */}
       <Fade direction='down'>
-        <div id="part" className=''>
-          <div className='flex justify-center'>
-            <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl'>
+        <div id="part" className='flex flex-col items-center justify-around sm:flex-row'>
+          <div className=''>
+            {/* <h1 className='text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl sm:mb-24'>
               Des partenaires puissants rien que pour toi.
-            </h1>
+            </h1> */}
           </div>
 
-          <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 py-24'>
-            <div className='sm:w-1/2'>
-              <img src='./steelseries.png' alt="logo steelseries partenaire" className='w-full h-auto'/>
+          <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 '>
+            <div className='p-6'>
+              <img src='./steelseries.png' alt="logo steelseries partenaire" className='w-60 h-auto'/>
             </div>
             <div className='sm:w-1/2 flex flex-col items-start gap-4'>
-              <h1 className='text-3xl font-bold'>
+              <h1 className='text-xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl '>
                 Découvre la puissance avec Steelseries
               </h1>
-              <h2 className='text-xl'>Hardware - style - immersif.</h2>
+              <h2 className='text-xl text-blue-500'>Hardware - style - immersif.</h2>
               <p className='text-md'>
                 Plonge dans l'empire du gaming et teste leurs dernières technologies "Sonar"
                 pour rendre les jeux encore plus immersifs et entendre vos ennemis de loin. Boostez

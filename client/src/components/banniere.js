@@ -9,16 +9,16 @@ export default function Banniere() {
   }
 
   return (
-    <div className="banniere h-screen relative ">
+    <div className="banniere h-screen relative">
       <video autoPlay loop muted className="w-full h-full object-cover absolute inset-0">
         <source src='./stars.mp4' type='video/mp4' />
       </video>
 
-      <div className="absolute inset-0 gap-3 flex flex-col justify-center items-center text-center text-white">
-        <h1 className="text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-4xl">
+      <div className="absolute inset-0 p-6 w-screen gap-12 flex flex-col justify-center sm:items-center  text-white">
+        <h1 className="text-2xl font-bold">
           A la recherche des <span className='text-orange-600'>meilleurs</span> prix pour les jeux ou construire le <span className='text-orange-600'>setup</span> de ses rêves ?
         </h1>
-        <p className='text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-2xl'>
+        <p className='text-xl text-center '>
           Améliore ton expérience de jeu dès maintenant !
         </p>
       </div>
