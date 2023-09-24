@@ -10,7 +10,10 @@ export default function Carousel() {
       loop: true,
       effect: 'fade',
       speed: 800,
-      
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: '.swiper-pagination',
       },
@@ -18,9 +21,7 @@ export default function Carousel() {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      crossFade: {
-        boolean: false,
-      },
+      crossFade: true, // Activer l'effet de transition en fondu (crossFade)
     });
   }, []); // Empty dependency array ensures this effect runs once after initial render
 
