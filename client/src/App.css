@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.swiper {
+  height: 1080px;
+  width: auto;
+  /* Autres styles ici */
+}
 
 .App-logo {
   height: 40vmin;
