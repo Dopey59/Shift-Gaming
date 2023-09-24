@@ -2,9 +2,11 @@
   text-align: center;
 }
 .swiper {
-  height: 1080px;
+  height: 700px;
   width: auto;
-  /* Autres styles ici */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {

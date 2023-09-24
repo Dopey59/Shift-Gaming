@@ -6,6 +6,8 @@ import Steelseries from '../components/steelseries'
 import Logitech from '../components/logitech'
 import Banniere2 from './banniere2';
 import Carousel from '../components/react-carousel-resonsive';
+import Parallax from '../components/parallax-slider';
+
 
 
 
@@ -18,23 +20,24 @@ export default function Homepage(){
                 <Banner/>
             </div>
 
-            <div className='h-screen'>
+            <div className='h-screen bg-gradient-to-tr from-zinc-900 to-slate-900 text-white'>
                 <Steelseries />
                 <Logitech />
             </div>
             
-            <div className='bg-black'>
+            <div>
+                <h1 className='flex py-16 flex-col justify-center items-center
+                text-4xl bg-gradient-to-tr from-zinc-800 to-slate-900 text-white'>Obtiens tout tes jeux moins chers et rapidement avec Instant Gaming.</h1>
+                <Carousel/>
+            </div>
+            
+            <div className='bg-gradient-to-tr from-zinc-900 to-slate-900'>
                 <Perf />
             </div>
 
             {/* <div className='py-14'>
-                <Banniere2 />
+                <Parallax />
             </div> */}
-
-            <div>
-                <Carousel/>
-            </div>
-
         </main>
     );
 }
