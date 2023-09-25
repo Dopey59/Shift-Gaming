@@ -17,10 +17,6 @@ export default function Carousel() {
       pagination: {
         el: '.swiper-pagination',
       },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
       crossFade: true, // Activer l'effet de transition en fondu (crossFade)
     });
   }, []); // Empty dependency array ensures this effect runs once after initial render
@@ -61,9 +57,6 @@ export default function Carousel() {
           </div>
         </div>
       </div>
-
-      <div className="swiper-button-prev"></div>
-      <div className="swiper-button-next"></div>
 
       <div className="swiper-scrollbar"></div>
     </div>

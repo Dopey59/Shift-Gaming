@@ -4,9 +4,7 @@ import Banner from '../components/banniere'
 import Perf from '../components/performances'
 import Steelseries from '../components/steelseries'
 import Logitech from '../components/logitech'
-import Banniere2 from './banniere2';
-import Carousel from '../components/react-carousel-resonsive';
-import Parallax from '../components/parallax-slider';
+import Carousel from './react-carousel-resonsive';
 
 
 
@@ -25,6 +23,10 @@ export default function Homepage(){
                 <Steelseries />
                 <Logitech />
             </div>
+
+            <div className='bg-gradient-to-tr from-zinc-900 to-slate-900'>
+                <Perf />
+            </div>
             
             <div>
                 <div className='flex py-16 flex-col justify-center items-center
@@ -34,9 +36,6 @@ export default function Homepage(){
             </div>
                 <Carousel/>
             
-            <div className='bg-gradient-to-tr from-zinc-900 to-slate-900'>
-                <Perf />
-            </div>
         </main>
     );
 }
