@@ -45,7 +45,7 @@ export default function ContactUs(){
               </div>
 
               <div class="mb-4">
-                <input type="email" id="hs-hero-email-2" name="user_email" placeholder="E-mail" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
+                <input type="email" id="hs-hero-email-2" name="email" placeholder="E-mail" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
               </div>
 
               <div class="mb-4">
