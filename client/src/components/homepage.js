@@ -29,18 +29,17 @@ export default function Homepage(){
                 <Logitech />
             </div>
 
-            <div className='dark:bg-gray-800'>
-                <Perf />
-            </div>
-            
             <div>
-                <div className='flex py-16 flex-col justify-center items-center
-                sm:text-3xl text-xl text-center dark:bg-gray-800 text-white'>
+                <div className='dark:bg-gray-800 flex py-16 flex-col justify-center items-center
+                sm:text-3xl text-xl text-center  text-white'>
                     <h1 >Obtiens tout tes jeux moins chers et rapidement avec Instant Gaming.</h1>
                 </div>
             </div>
                 <Carousel/>
                 
+            <div className='dark:bg-gray-900'>
+                <Perf />
+            </div>
                 <Footer/>
         </main>
     );

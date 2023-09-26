@@ -8,13 +8,13 @@ export default function Navbar(){
                     Accueil
                 </a>
                 <div class="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:pl-5">
-                    <a class="text-lg text-blue-500" href="#" aria-current="page">Landing</a>
-                    <a class="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Account</a>
-                    <a class="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Work</a>
-                    <a class="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Blog</a>
+                    <a class="text-lg text-blue-500" href="/Contact" aria-current="page">Contact</a>
+                    <a class="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">A propos</a>
+                    <a class="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Guide pc</a>
+                    <a class="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Partenaires</a>
                 </div>
             </nav>
         </header>
         </>
     )
-}
+}   

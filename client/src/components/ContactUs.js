@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Footer from '../components/footer';
+import Navbar from '../components/navbar';
+
 
 
 export default function ContactUs(){
@@ -19,47 +21,51 @@ export default function ContactUs(){
 
   return (
     <>
-      <div className='min-h-screen bg-gradient-to-tr from-zinc-900 to-slate-900 flex p-6 justify-evenly flex-col sm:items-center'>
+    <Navbar/>
+      {/* <!-- Hero --> */}
+      <div class="relative overflow-hidden">
+        <div class="mx-auto max-w-screen-md py-12 px-4 sm:px-6 md:max-w-screen-xl md:py-20 lg:py-32 md:px-8">
+          <div class="md:pr-8 md:w-1/2 xl:pr-0 xl:w-5/12">
+            {/* <!-- Title --> */}
+            <h1 class="text-3xl text-gray-800 font-bold md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight dark:text-gray-200">
+              Contactez notre  <span class="text-blue-600 dark:text-blue-500">team</span>
+            </h1>
+            <p class="mt-3 text-base text-gray-500">
+              Une demande particulière ? Envoie-nous un message en remplissant le formulaire ci-dessous. 
+              Notre équipe traite toutes demandes sous 48h maximum. 
+            </p>
+            {/* <!-- End Title --> */}
 
-        <div className='text-center flex text-white flex-col gap-2'>
-          <h1 className='sm:text-4xl text-3xl'>Formulaire de contact</h1>
-          <p className='sm:text-xl text-md'>Remplis le formulaire ci-dessous</p>
+            <div class="py-6 flex items-center text-gray-400 uppercase before:flex-[1_1_0%] before:border-t before:mr-6 after:flex-[1_1_0%] after:border-t after:ml-6 dark:text-gray-500 dark:before:border-gray-600 dark:after:border-gray-600">Formulaire de contact</div>
+
+            {/* <!-- Form --> */}
+            <form ref={form} onSubmit={sendEmail}>
+              <div className="mb-4">
+                <input type="text" id="hs-hero-name-2" placeholder="Prénom du destinataire" name="from_name" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
+              </div>
+
+              <div class="mb-4">
+                <input type="email" id="hs-hero-email-2" name="user_email" placeholder="E-mail" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
+              </div>
+
+              <div class="mb-4">
+                <div>
+                  <textarea id="hs-about-contacts-1" type="text" placeholder="Message" name="message" rows="4" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"></textarea>
+                </div>
+              </div>
+
+              <div class="grid">
+                <button type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800 sm:p-4">Envoyer</button>
+              </div>
+            </form>
+            {/* <!-- End Form --> */}
+          </div>
         </div>
-        
-        <form className="flex flex-col gap-6 " ref={form} onSubmit={sendEmail}>
-          <div className='flex sm:flex-row flex-col gap-6 '>
-            <input 
-              className="border-b-2 p-2 rounded-md border-solid border-black outline-none"
-              type="text"
-              name="user_name"
-              placeholder='Nom du destinataire'
-              />
-            <input
-              type="email"
-              name="user_email"
-              placeholder='email'
-              className="border-b-2 p-2 rounded-md border-solid border-black outline-none"
-              />
-          </div>
 
-          <div className='flex flex-col gap-2'>
-            <label for="text" name="message" className='text-white'>Message :</label>
-            <textarea 
-            name="message"
-            className="border-2 rounded-md border-solid border-black"
-            rows={4}
-            />
-            
-            <input 
-            type="submit"
-            value="Envoyer"
-            className='bg-blue-500 p-2 rounded-md hover:bg-blue-600
-            hover:cursor-pointer text-white'
-            />
-          </div>
-
-        </form>
+        <div class="hidden md:block md:absolute md:top-0 md:left-1/2 md:right-0 h-full bg-[url('https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80')] bg-no-repeat bg-center bg-cover"></div>
+        {/* <!-- End Col --> */}
       </div>
+      {/* <!-- End Hero --> */}
       <Footer/>
     </>
   );
