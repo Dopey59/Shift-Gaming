@@ -5,8 +5,9 @@ import Perf from '../components/performances'
 import Steelseries from '../components/steelseries'
 import Logitech from '../components/logitech'
 import Carousel from './react-carousel-resonsive';
-
-
+import Mail from '../components/ContactUs';
+import Footer from '../components/footer';
+import Navbar from '../components/navbar';
 
 
 
@@ -14,10 +15,14 @@ export default function Homepage(){
     
     return(
         <main className='overflow-x-hidden'>
+            <Navbar/>
             <div>
                 <Banner/>
             </div>
-
+            <div className='flex py-16 flex-col justify-center items-center
+                sm:text-3xl text-xl text-center bg-gradient-to-tr from-zinc-900 to-slate-900 text-white'>
+                    <h1 >Des partenaires puissants pour toi.</h1>
+                </div>
             <div className='bg-gradient-to-tr from-zinc-900 to-slate-900 text-white
                 sm:p-12'>
                 <Steelseries />
@@ -30,12 +35,13 @@ export default function Homepage(){
             
             <div>
                 <div className='flex py-16 flex-col justify-center items-center
-                sm:text-2xl text-xl text-center bg-gradient-to-tr from-zinc-800 to-slate-900 text-white'>
+                sm:text-3xl text-xl text-center bg-gradient-to-tr from-zinc-800 to-slate-900 text-white'>
                     <h1 >Obtiens tout tes jeux moins chers et rapidement avec Instant Gaming.</h1>
                 </div>
             </div>
                 <Carousel/>
-            
+                
+                <Footer/>
         </main>
     );
 }

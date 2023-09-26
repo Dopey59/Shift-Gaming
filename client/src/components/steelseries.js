@@ -7,12 +7,7 @@ export default function Steelseries() {
     <main className="w-full pb-14">
       {/* Steelseries */}
       <Fade direction='down'>
-        <div id="part" className=''>
-          <div className='text-center sm:py-6 py-12'>
-            <h1 className='text-4xl'>
-              Des partenaires puissants.
-            </h1>
-          </div>
+        <div id="part">
 
           <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 '>
             <div className='p-6'>
