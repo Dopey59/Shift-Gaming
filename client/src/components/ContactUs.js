@@ -11,7 +11,7 @@ export default function ContactUs(){
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_yd247in', 'template1', form.current, 'VdQ4--7AZkMyERSyS')
+    emailjs.sendForm('service_0fy543n', 'first_template', form.current, '7RZaBSfMdIqskszmu')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -45,7 +45,7 @@ export default function ContactUs(){
               </div>
 
               <div class="mb-4">
-                <input type="email" id="hs-hero-email-2" name="email" placeholder="E-mail" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
+                <input type="email" id="hs-hero-email-2" name="from_mail" placeholder="E-mail" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
               </div>
 
               <div class="mb-4">
@@ -55,7 +55,7 @@ export default function ContactUs(){
               </div>
 
               <div class="grid">
-                <button type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800 sm:p-4">Envoyer</button>
+                <input type="submit" value="Envoyer" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800 sm:p-4"/>
               </div>
             </form>
             {/* <!-- End Form --> */}
