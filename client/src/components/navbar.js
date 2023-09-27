@@ -1,7 +1,7 @@
 export default function Navbar(){
     return (
         <>
-        <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-slate-900 bg-gradient-to-b from-violet-900/[.15] via-transparent  text-sm py-4">
+        <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-slate-800 bg-gradient-to-b from-violet-900/[.15] via-transparent  text-sm py-4">
           <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
             <div className="flex items-center justify-between">
               <a className="flex-none text-xl font-semibold text-white" href="/">Accueil</a>

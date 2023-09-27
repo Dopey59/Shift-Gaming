@@ -20,17 +20,17 @@ export default function Homepage(){
                 <Banner/>
             </div>
             <div className='flex py-16 flex-col justify-center items-center
-                sm:text-3xl text-xl text-center bg-gray-800 text-white'>
+                sm:text-3xl text-xl text-center  bg-blue-900 bg-gradient-to-b from-zinc-900/[.15] via-transparent text-white'>
                     <h1 >Des partenaires puissants pour toi.</h1>
                 </div>
-            <div className='bg-gradient-to-tr from-zinc-900 to-slate-900 text-white
+            <div className='bg-gradient-to-tr from-zinc-800 to-slate-900 text-white
                 sm:p-12'>
                 <FeaturesSteelseries />
                 <FeaturesLogitech />
             </div>
 
             <div>
-                <div className=' flex py-16 flex-col justify-center items-center bg-gray-800 sm:text-3xl text-xl text-center text-white'>
+                <div className=' flex py-16 flex-col justify-center items-center bg-blue-900 bg-gradient-to-b from-zinc-900/[.15] via-transparent sm:text-3xl text-xl text-center text-white'>
                     <h1 >Obtiens tout tes jeux moins chers et rapidement avec Instant Gaming.</h1>
                 </div>
             </div>
