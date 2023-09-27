@@ -36,7 +36,7 @@ export default function Homepage(){
             </div>
                 <Carousel/>
                 
-            <div className=''>
+            <div className='bg-gray-900'>
                 <Perf />
             </div>
                 <Footer/>
