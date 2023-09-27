@@ -2,12 +2,12 @@ import '../index.css';
 import React from 'react';
 import Banner from '../components/banniere'
 import Perf from '../components/performances'
-import Steelseries from '../components/steelseries'
-import Logitech from '../components/logitech'
 import Carousel from './react-carousel-resonsive';
-import Mail from '../components/ContactUs';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
+import FeaturesSteelseries from '../components/featuresSteelseries';
+import FeaturesLogitech from '../components/featuresLogitech'
+
 
 
 
@@ -25,8 +25,8 @@ export default function Homepage(){
                 </div>
             <div className='bg-gradient-to-tr from-zinc-900 to-slate-900 text-white
                 sm:p-12'>
-                <Steelseries />
-                <Logitech />
+                <FeaturesSteelseries />
+                <FeaturesLogitech />
             </div>
 
             <div>
