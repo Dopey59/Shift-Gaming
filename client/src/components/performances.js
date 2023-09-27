@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Perf(){
     return(
-        <main className='sm:py-12 p-6'>
+        <main className='sm:py-12 p-6 dark:bg-gray-900'>
             <div className='grid grid-cols-1 sm:grid-cols-4 text-white'>
                 <Fade direction='down'>
                     <div className='flex flex-col sm:grid sm:grid-cols-4 sm:w-screen gap-12'>

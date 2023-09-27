@@ -20,7 +20,7 @@ export default function Homepage(){
                 <Banner/>
             </div>
             <div className='flex py-16 flex-col justify-center items-center
-                sm:text-3xl text-xl text-center dark:bg-gray-800 text-white'>
+                sm:text-3xl text-xl text-center bg-gray-800 text-white'>
                     <h1 >Des partenaires puissants pour toi.</h1>
                 </div>
             <div className='bg-gradient-to-tr from-zinc-900 to-slate-900 text-white
@@ -30,14 +30,13 @@ export default function Homepage(){
             </div>
 
             <div>
-                <div className='dark:bg-gray-800 flex py-16 flex-col justify-center items-center
-                sm:text-3xl text-xl text-center  text-white'>
+                <div className=' flex py-16 flex-col justify-center items-center bg-gray-800 sm:text-3xl text-xl text-center text-white'>
                     <h1 >Obtiens tout tes jeux moins chers et rapidement avec Instant Gaming.</h1>
                 </div>
             </div>
                 <Carousel/>
                 
-            <div className='dark:bg-gray-900'>
+            <div className=''>
                 <Perf />
             </div>
                 <Footer/>
