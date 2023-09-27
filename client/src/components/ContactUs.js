@@ -1,22 +1,47 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-
-export default function ContactUs(){
+export default function ContactUs() {
   const form = useRef();
+  const [isMessageSent, setIsMessageSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_0fy543n', 'first_template', form.current, '7RZaBSfMdIqskszmu')
+    emailjs
+      .sendForm('service_0fy543n', 'first_template', form.current, '7RZaBSfMdIqskszmu')
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+        console.log(result.text);
+        if (result.status === 200) {
+          setIsMessageSent(true);
+          notify('Message envoyé !', 'success');
+        } else {
+          notify('Une erreur est survenue', 'error');
+        }
+      })
+      .catch((error) => {
+        console.log(error.text);
+        notify('Une erreur est survenue..', 'error');
       });
+  };
+
+  const notify = (message, type) => {
+    toast(message, {
+      position: 'top-right',
+      type: type,
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'dark',
+    });
   };
 
   return (
@@ -55,14 +80,26 @@ export default function ContactUs(){
               </div>
 
               <div className="grid">
-                <input type="submit" value="Envoyer" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800 sm:p-4"/>
+                
+                <input type="submit" onClick={notify} value="Envoyer" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800 sm:p-4"/>
+                  <ToastContainer position="top-right"
+                    autoClose={5000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                    theme="dark" 
+                  />
               </div>
             </form>
             {/* <!-- End Form --> */}
           </div>
         </div>
 
-        <div className="hidden md:block md:absolute md:top-0 md:left-1/2 md:right-0 h-full bg-[url('https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80')] bg-no-repeat bg-center bg-cover"></div>
+        <div className="hidden md:block md:absolute md:top-0 md:left-1/2 md:right-0 h-full w-auto bg-[url('https://images5.alphacoders.com/132/1327489.png')] bg-no-repeat bg-center bg-cover"></div>
         {/* <!-- End Col --> */}
       </div>
       {/* <!-- End Hero --> */}
