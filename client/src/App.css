@@ -9,7 +9,7 @@
   align-items: center;
 }
 #logo {
-  filter: invert(79%) sepia(50%) saturate(7493%) hue-rotate(343deg) brightness(96%) contrast(89%);
+  filter: invert(93%) sepia(100%) saturate(2%) hue-rotate(301deg) brightness(105%) contrast(101%);
 }
 .App-logo {
   height: 40vmin;

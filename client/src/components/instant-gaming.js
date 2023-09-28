@@ -9,10 +9,11 @@ export default function InstantFeature() {
     </h2>
     <p className="mt-3  dark:text-gray-200">
       Avec Instant-Gaming, c'est rapide et facile.</p>
-    <a  className=" text-white   text-center text-xl rounded-md hover:duration-500 transition duration-0 hover:text-gray-300"
-        href='https://www.instant-gaming.com/?igr=gamer-7232d0'>
+    <div className="group flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
+      <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
         En profiter
-    </a>
+    </a>      
+    </div>
   </div>
   {/* <!-- End Title --> */}
 

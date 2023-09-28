@@ -9,8 +9,8 @@ export default function Banniere() {
   return (
 
     // <!-- Hero -->
-    <div className="bg-slate-900">
-      <div className="bg-gradient-to-b from-violet-600/[.15] via-transparent">
+    <div className="bg-slate-900 ">
+      <div className="bg-gradient-to-b from-violet-600/[.15] via-transparent relative">
         <div className="max-w-[85rem] mx-auto sm:px-6 lg:px-8 py-24 space-y-8">
           {/* <!-- Announcement Banner --> */}
           <div className="flex justify-center">
