@@ -6,10 +6,6 @@ import Faq from '../src/components/faq';
 import GuidePc from '../src/components/guidePc';
 import About from '../src/components/about';
 
-
-
-
-
 function App(){
   return (
     <Routes>
