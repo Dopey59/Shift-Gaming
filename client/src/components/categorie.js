@@ -15,7 +15,7 @@ export default function Categorie() {
         </div>
 
         <div class="flex flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+          <h3 class="text-xl font-semibold text-white">
             Amazon
           </h3>
           <p class="mt-3 text-gray-300">
@@ -43,7 +43,7 @@ export default function Categorie() {
         </div>
 
         <div class="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+          <h3 class="text-xl font-semibold text-white">
             Onsite
           </h3>
           <p class="mt-3 text-gray-300">
@@ -71,7 +71,7 @@ export default function Categorie() {
         </div>
 
         <div class="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+          <h3 class="text-xl font-semibold text-white">
             The complete guide to OKRs
           </h3>
           <p class="mt-3 text-gray-300">
@@ -99,7 +99,7 @@ export default function Categorie() {
         </div>
 
         <div class="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+          <h3 class="text-xl font-semibold text-white">
             People program models
           </h3>
           <p class="mt-3 text-gray-300">
@@ -127,7 +127,7 @@ export default function Categorie() {
         </div>
 
         <div class="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+          <h3 class="text-xl font-semibold text-white">
             People program models
           </h3>
           <p class="mt-3 text-gray-300">
@@ -155,7 +155,7 @@ export default function Categorie() {
         </div>
 
         <div class="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white">
+          <h3 class="text-xl font-semibold text-white">
             People program models
           </h3>
           <p class="mt-3 text-gray-300">
