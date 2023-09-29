@@ -66,16 +66,16 @@ export default function ContactUs() {
             {/* <!-- Form --> */}
             <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">
-                <input type="text" id="hs-hero-name-2" placeholder="Prénom du destinataire" name="from_name" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
+                <input type="text" id="hs-hero-name-2" placeholder="Prénom du destinataire" name="from_name" className="py-3 px-4 block w-full rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 bg-slate-900 border-gray-700 text-gray-400"/>
               </div>
 
               <div className="mb-4">
-                <input type="email" id="hs-hero-email-2" name="from_mail" placeholder="E-mail" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
+                <input type="email" id="hs-hero-email-2" name="from_mail" placeholder="E-mail" className="py-3 px-4 block w-full rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 bg-slate-900 border-gray-700 text-gray-400"/>
               </div>
 
               <div className="mb-4">
                 <div>
-                  <textarea id="hs-about-contacts-1" type="text" placeholder="Message" name="message" rows="4" className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"></textarea>
+                  <textarea id="hs-about-contacts-1" type="text" placeholder="Message" name="message" rows="4" className="py-3 px-4 block w-full  rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 bg-slate-900 border-gray-700 text-gray-400"></textarea>
                 </div>
               </div>
 

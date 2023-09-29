@@ -32,19 +32,19 @@ export default function About() {
 
                 <p className="text-lg flex flex-col text-gray-800 
                 "> <span className='font-bold text-blue-600'> Un Accès Facile aux Offres de Jeux : </span> 
-                Pour une expérience de jeu haut de gamme, optez pour un processeur multicœur puissant. Les processeurs Intel Core i7 ou AMD Ryzen 7 sont d'excellents choix.</p>
+               Shift Gaming vous connecte instantanément aux meilleures offres de jeux du marché. Nous travaillons en partenariat avec les principales plateformes de jeux pour vous garantir des prix compétitifs et des titres populaires.</p>
 
                 <p className="text-lg flex flex-col text-gray-800 
                 "> <span className='font-bold text-blue-600'> Guides Informatifs  (à venir): </span> 
-                Investissez dans une carte graphique haut de gamme, comme les modèles NVIDIA GeForce RTX 30 ou AMD Radeon RX 6000. Cela garantira des graphismes ultra-réalistes.</p>
+                 Notre équipe d'experts en jeu et en technologie crée régulièrement des guides informatifs pour vous aider à prendre des décisions éclairées. Que vous soyez un joueur débutant ou chevronné, vous trouverez des conseils et des astuces pour améliorer votre expérience de jeu.</p>
 
                 <p className="text-lg flex flex-col text-gray-800 
                 "><span className='font-bold text-blue-600'> Matériel de Jeu :</span> 
-                Optez pour au moins 16 Go minimum de RAM DDR4/DDR5/DDR6 pour gérer facilement les tâches multitâches et les jeux exigeants.</p>
+                 Nous mettons en avant les derniers périphériques et équipements de jeu, du matériel de pointe aux options plus abordables. Vous pouvez trouver des recommandations pour des souris, claviers, casques et bien plus encore, afin d'améliorer votre setup de jeu.</p>
 
                 <p className="text-lg flex flex-col text-gray-800 
                 "><span className='font-bold text-blue-600'> Communauté de Joueurs (à venir) </span> 
-                Choisissez un SSD NVMe pour des temps de chargement ultra-rapides. Ajoutez un disque dur supplémentaire si vous avez besoin de plus d'espace de stockage.</p>
+                 Shift Gaming aura prochainement son lieu de rencontre pour les joueurs du monde entier. Bientôt, vous pourrez rejoindre notre communauté pour discuter des dernières actualités, partager des astuces et des critiques de jeux, et participer à des discussions animées.</p>
 
               
                 <h1 className="text-lg flex flex-col font-bold text-gray-800">
