@@ -1,112 +1,101 @@
+import { Fade } from "react-awesome-reveal";
+
 export default function InstantFeature() {
     return(
-        // <!-- Features -->
-<div className="max-w px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  {/* <!-- Title --> */}
-  <div className="mx-auto max-w-2xl gap-y-3 flex flex-col mb-8 lg:mb-14 text-center">
-    <h2 className="text-3xl lg:text-4xl font-bold ">
-      Les jeux aux plus <span className="text-orange-600 ">bas prix</span> du marché
-    </h2>
-    <p className="mt-3  dark:text-gray-200">
-      Avec Instant-Gaming, c'est rapide et facile.</p>
-    <div className="group flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
-      <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
-        En profiter
-    </a>      
-    </div>
-  </div>
-  {/* <!-- End Title --> */}
-
-  {/* <!-- Grid --> */}
-  <div className="mx-auto max-w-3xl grid grid-cols-12 gap-6 lg:gap-8">
-    {/* <!-- Icon Block --> */}
-    <div className="col-span-6 sm:col-span-4 text-center">
-      <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-blue-600 bi bi-people-fill" viewBox="0 0 16 16">
-        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-        </svg>
-      </svg>
-      <div className="mt-2 sm:mt-6">
-        <h3 className="text-lg font-semibold text-gray-400">
-          Multi-Plateforme
-        </h3>
-      </div>
-    </div>
-    {/* <!-- End Icon Block --> */}
-
-    {/* <!-- Icon Block --> */}
-    <div className="col-span-6 sm:col-span-4 text-center">
-      <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-blue-600 bi bi-clock-history" viewBox="0 0 16 16">
-        <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"/>
-        <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/>
-        <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
-      </svg>
-      </svg>
-      <div className="mt-2 sm:mt-6">
-        <h3 className="text-lg font-semibold text-gray-400">
-          Livraison Instantanée
-        </h3>
-      </div>
-    </div>
-    {/* <!-- End Icon Block --> */}
-
-    {/* <!-- Icon Block --> */}
-    <div className="col-span-6 col-start-4 sm:col-span-4 text-center">
-      <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className=" text-blue-600 bi bi-lock" viewBox="0 0 16 16">
-        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
-      </svg>
-      </svg>
-      <div className="mt-2 sm:mt-6">
-        <h3 className="text-lg font-semibold text-gray-400">
-          Sécurité Garantie
-        </h3>
-      </div>
-    </div>
-    {/* <!-- End Icon Block --> */}
-
-    {/* <!-- Icon Block --> */}
-    {/* <div className="col-span-6 sm:col-span-4 text-center">
-        <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-blue-600 bi bi-people-fill" viewBox="0 0 16 16">
-            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-        </svg>
-        </svg>
-        <div className="mt-2 sm:mt-6">
-            <h3 className="text-lg font-semibold text-gray-400">
-                Multi-Plateforme
-            </h3>
+      // <!-- Features -->
+    <div className="max-w px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      {/* <!-- Title --> */}
+      <div className="mx-auto max-w-2xl gap-y-3 flex flex-col mb-8 lg:mb-14 text-center">
+        <h2 className="text-3xl lg:text-4xl font-bold ">
+          Les jeux aux plus <span className="text-orange-600 ">bas prix</span> du marché
+        </h2>
+        <p className="mt-3  dark:text-gray-200">
+          Avec Instant-Gaming, c'est rapide et facile.</p>
+        <div className="group flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
+          <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
+            En profiter
+        </a>      
         </div>
-    </div> */}
-    {/* <!-- End Icon Block --> */}
+      </div>
+      {/* <!-- End Title --> */}
+      <Fade direction="up">
 
-  </div>
-  {/* <!-- End Grid --> */}
+      {/* <!-- Grid --> */}
+      <div className="mx-auto max-w-3xl grid grid-cols-12 gap-6 lg:gap-8">
+        {/* <!-- Icon Block --> */}
+        <div className="col-span-6 sm:col-span-4 text-center">
+          <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-blue-600 bi bi-people-fill" viewBox="0 0 16 16">
+            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+            </svg>
+          </svg>
+          <div className="mt-2 sm:mt-6">
+            <h3 className="text-lg font-semibold text-gray-400">
+              Multi-Plateforme
+            </h3>
+          </div>
+        </div>
+        {/* <!-- End Icon Block --> */}
 
-  {/* <!-- Grid --> */}
-  <div className="mt-20 grid sm:grid-cols-12 grid-cols-8 items-center gap-y-6 gap-x-2 sm:gap-x-6 lg:gap-x-8">
-    <div className=" md:block col-span-4 md:col-span-3">
-      <img className="rounded-xl" src="./starfield-min.webp" alt="Image Description"/>
+        {/* <!-- Icon Block --> */}
+        <div className="col-span-6 sm:col-span-4 text-center">
+          <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-blue-600 bi bi-clock-history" viewBox="0 0 16 16">
+            <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"/>
+            <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/>
+            <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+          </svg>
+          <div className="mt-2 sm:mt-6">
+            <h3 className="text-lg font-semibold text-gray-400">
+              Livraison Instantanée
+            </h3>
+          </div>
+        </div>
+        {/* <!-- End Icon Block --> */}
+
+        {/* <!-- Icon Block --> */}
+        <div className="col-span-6 col-start-4 sm:col-span-4 text-center">
+          <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className=" text-blue-600 bi bi-lock" viewBox="0 0 16 16">
+            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+          </svg>
+          </svg>
+          <div className="mt-2 sm:mt-6">
+            <h3 className="text-lg font-semibold text-gray-400">
+              Sécurité Garantie
+            </h3>
+          </div>
+        </div>
+        {/* <!-- End Icon Block --> */}
+      </div>
+      {/* <!-- End Grid --> */}
+      </Fade>
+      <Fade direction="right">
+      {/* <!-- Grid --> */}
+      <div className="mt-20 grid sm:grid-cols-12 grid-cols-8 items-center gap-y-6 gap-x-2 sm:gap-x-6 lg:gap-x-8">
+        <div className=" md:block col-span-4 md:col-span-3">
+          <img className="rounded-xl" src="./starfield-min.webp" alt="Starfield "/>
+        </div>
+        {/* <!-- End Col --> */}
+
+        <div className="col-span-4 md:col-span-3">
+          <img className="rounded-xl" src="./mirage-min.webp" alt="Assassin's creed mirage - Ubisoft"/>
+        </div>
+        {/* <!-- End Col --> */}
+
+        <div className="col-span-4 md:col-span-3">
+          <img className="rounded-xl" src="./payday3.webp" alt="Payday 3 jeu"/>
+        </div>
+        {/* <!-- End Col --> */}
+
+        <div className="col-span-4 md:col-span-3">
+          <img className="rounded-xl" src="./fc24.webp" alt="fc24 football jeu"/>
+        </div>
+        {/* <!-- End Col --> */}
+      </div>
+      {/* <!-- End Grid --> */}
+      </Fade>
     </div>
-    {/* <!-- End Col --> */}
-
-    <div className="col-span-4 md:col-span-3">
-      <img className="rounded-xl" src="./mirage-min.webp" alt="Image Description"/>
-    </div>
-    {/* <!-- End Col --> */}
-
-    <div className="col-span-4 md:col-span-3">
-      <img className="rounded-xl" src="./payday3.webp" alt="Image Description"/>
-    </div>
-    {/* <!-- End Col --> */}
-
-    <div className="col-span-4 md:col-span-3">
-      <img className="rounded-xl" src="./fc24.webp" alt="Image Description"/>
-    </div>
-    {/* <!-- End Col --> */}
-  </div>
-  {/* <!-- End Grid --> */}
-</div>
-    )
+  )
 }
