@@ -11,11 +11,11 @@ export default function InstantFeature() {
         </h2>
         <p className="mt-3  dark:text-gray-200">
           Jusqu'à 90% de réductions sur tes jeux préférés avec Instant Gaming!</p>
-        <div className="group flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
           <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
-            En profiter
-        </a>      
-        </div>
+            <div className="group flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
+                En profiter
+            </div>
+          </a>      
       </div>
       {/* <!-- End Title --> */}
       <Fade direction="up">
@@ -75,22 +75,22 @@ export default function InstantFeature() {
       {/* <!-- Grid --> */}
       <div className="mt-20 grid sm:grid-cols-12 grid-cols-8 items-center gap-y-6 gap-x-2 sm:gap-x-6 lg:gap-x-8">
         <div className=" md:block col-span-4 md:col-span-3">
-          <img className="rounded-xl" src="./starfield-min.webp" alt="Starfield "/>
+          <img className="rounded-xl max-w-full h-auto" src="./starfield-min.webp" alt="Starfield "/>
         </div>
         {/* <!-- End Col --> */}
 
         <div className="col-span-4 md:col-span-3">
-          <img className="rounded-xl" src="./mirage-min.webp" alt="Assassin's creed mirage - Ubisoft"/>
+          <img className="rounded-xl max-w-full h-auto" src="./mirage-min.webp" alt="Assassin's creed mirage - Ubisoft"/>
         </div>
         {/* <!-- End Col --> */}
 
         <div className="col-span-4 md:col-span-3">
-          <img className="rounded-xl" src="./payday3.webp" alt="Payday 3 jeu"/>
+          <img className="rounded-xl max-w-full h-auto" src="./payday3.webp" alt="Payday 3 jeu"/>
         </div>
         {/* <!-- End Col --> */}
 
         <div className="col-span-4 md:col-span-3">
-          <img className="rounded-xl" src="./fc24.webp" alt="fc24 football jeu"/>
+          <img className="rounded-xl max-w-full h-auto" src="./fc24.webp" alt="fc24 football jeu"/>
         </div>
         {/* <!-- End Col --> */}
       </div>
