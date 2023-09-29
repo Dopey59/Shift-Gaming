@@ -13,8 +13,8 @@ export default function Footer(){
         {/* <!-- End Col --> */} 
     
         <div className="mt-3 text-sm">
-          <p className="text-gray-500">Nous faisons partie de la <a className="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#">Game N Tech</a> family.</p>
-          <p className="text-gray-500">© 2023 Game N Tech. Tous droits réservés.</p>
+          <p className="text-gray-500">Nous faisons partie de la <a className="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#">Shift</a> family.</p>
+          <p className="text-gray-500">© 2023 Shift Gaming. Tous droits réservés.</p>
         </div>
     
       </div>
