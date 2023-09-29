@@ -21,8 +21,8 @@ export default function Navbar(){
             <div id="navbar-with-collapse" className="hidden basis-full grow sm:block">
               <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
                 <a className="font-small text-blue-500" href="Contact" aria-current="page">Contact</a>
-                <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">A propos</a>
-                <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#">Guide PC</a>
+                <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="About">A propos</a>
+                <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/GuidePc">Guide PC</a>
                 <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/Faq">FAQ</a>
               </div>
             </div>

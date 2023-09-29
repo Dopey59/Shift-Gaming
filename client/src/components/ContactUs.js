@@ -14,7 +14,7 @@ export default function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_0fy543n', 'first_template', form.current, '7RZaBSfMdIqskszmu')
+      .sendForm('service_yd247in', 'template1', form.current, 'VdQ4--7AZkMyERSyS')
       .then((result) => {
         console.log(result.text);
         if (result.status === 200) {
@@ -81,7 +81,7 @@ export default function ContactUs() {
 
               <div className="grid">
                 
-                <input type="submit" onClick={notify} value="Envoyer" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800 sm:p-4"/>
+                <input type="submit" onClick={notify} value="Envoyer" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 outline-none hover:cursor-pointer transition-all text-sm dark:focus:ring-offset-gray-800 sm:p-4"/>
                   <ToastContainer position="top-right"
                     autoClose={5000}
                     hideProgressBar={false}

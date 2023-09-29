@@ -38,7 +38,7 @@ export default function Homepage(){
             </div>
             <div className='flex py-16 flex-col justify-center items-center
                 sm:text-3xl text-xl text-center  bg-blue-900 bg-gradient-to-b from-zinc-900/[.15] via-transparent text-white'>
-                <h1>Catégories des meilleurs sites.</h1>
+                <h1>Catégories des meilleurs sites  pour économiser.</h1>
             </div>
             <div className='bg-gradient-to-tr from-zinc-900 to-slate-900'>
                 <Categorie/>

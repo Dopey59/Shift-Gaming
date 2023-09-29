@@ -10,7 +10,7 @@ export default function Faq() {
     {/* <!-- Title --> */}
     <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
       <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-blue-600">F.A.Q</h2>
-      <p className="mt-1 text-gray-600 dark:text-gray-500">Réponses aux questions les plus demandées.</p>
+      <p className="mt-1 text-gray-600 dark:text-gray-500">Réponses aux questions les plus fréquentes.</p>
     </div>
     {/* <!-- End Title --> */}
 

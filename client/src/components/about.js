@@ -1,0 +1,99 @@
+import Footer from '../components/footer';
+import Navbar from '../components/navbar';
+
+export default function About() {
+    return(
+        <>
+        
+        <Navbar/>
+    {/* // <!-- Blog Article --> */}
+    <div className="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
+        <div className="max-w-2xl">
+          
+
+            {/* <!-- Content --> */}
+            <div className="space-y-5 md:space-y-8">
+                <div className="space-y-3">
+                    <h2 className="text-2xl font-bold md:text-3xl text-black">A propos de Shift Gaming</h2>
+
+                    <p className="text-lg flex flex-col text-gray-800 
+                    ">Bienvenue sur Shift Gaming, votre destination ultime pour le monde du jeu et de la technologie. Chez Shift Gaming, nous sommes passionnés par l'univers du jeu vidéo, de la technologie et de l'innovation. Notre mission est de vous offrir une expérience unique en rassemblant les meilleurs sites de gaming et les dernières avancées technologiques, le tout sous un même toit.</p>
+                </div>
+
+                {/* <figure>
+                    <img className="w-full object-cover rounded-xl" src="https://wallpapercave.com/dwp1x/wp7203920.jpg" alt="Exemple d'un setup gamer"/>
+                    <figcaption className="mt-3 text-sm text-center text-gray-500">
+                    Un setup de qualité.
+                    </figcaption>
+                </figure> */}
+
+                <h1 className=" text-xl font-bold md:text-2xl
+                ">Ce que nous faisons :</h1>
+
+                <p className="text-lg flex flex-col text-gray-800 
+                "> <span className='font-bold text-blue-600'> Un Accès Facile aux Offres de Jeux : </span> 
+                Pour une expérience de jeu haut de gamme, optez pour un processeur multicœur puissant. Les processeurs Intel Core i7 ou AMD Ryzen 7 sont d'excellents choix.</p>
+
+                <p className="text-lg flex flex-col text-gray-800 
+                "> <span className='font-bold text-blue-600'> Guides Informatifs  (à venir): </span> 
+                Investissez dans une carte graphique haut de gamme, comme les modèles NVIDIA GeForce RTX 30 ou AMD Radeon RX 6000. Cela garantira des graphismes ultra-réalistes.</p>
+
+                <p className="text-lg flex flex-col text-gray-800 
+                "><span className='font-bold text-blue-600'> Matériel de Jeu :</span> 
+                Optez pour au moins 16 Go minimum de RAM DDR4/DDR5/DDR6 pour gérer facilement les tâches multitâches et les jeux exigeants.</p>
+
+                <p className="text-lg flex flex-col text-gray-800 
+                "><span className='font-bold text-blue-600'> Communauté de Joueurs (à venir) </span> 
+                Choisissez un SSD NVMe pour des temps de chargement ultra-rapides. Ajoutez un disque dur supplémentaire si vous avez besoin de plus d'espace de stockage.</p>
+
+              
+                <h1 className="text-lg flex flex-col font-bold text-gray-800">
+                    Notre engagement :
+                </h1>
+                <h1 className="text-lg flex flex-col text-gray-800 
+                    ">Chez Shift Gaming, nous sommes déterminés à offrir une expérience transparente, fiable et centrée sur l'utilisateur. Nous croyons en la passion du jeu et de la technologie, et nous nous efforçons de vous fournir les informations et les ressources dont vous avez besoin pour tirer le meilleur parti de votre expérience de jeu.</h1>
+
+                <h1 className="text-lg flex flex-col font-bold text-gray-800">
+                    Rejoignez-nous dès aujourd'hui et explorez l'univers fascinant du jeu et de la technologie avec Shift Gaming.
+                </h1>
+
+                <p className="text-lg flex flex-col text-gray-800 
+                ">
+                Pour toute question, commentaire ou demande de partenariat, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à vivre une expérience de jeu exceptionnelle.
+
+</p>
+
+
+                {/* <figure>
+                    <img className="w-full object-cover rounded-md border-black border-2" src="./banniere_logo.webp" alt="Exemple d'un setup gamer"/>
+                    <figcaption className="mt-3 text-sm text-center text-gray-500">
+                        www.shiftgaming.fr
+                    </figcaption>
+                </figure> */}
+
+                <div>
+                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    " href="#">
+                    Bons plans
+                    </a>
+                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    " href="#">
+                    Pc Gamer
+                    </a>
+                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    " href="#">
+                    Astuces
+                    </a>
+                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    " href="#">
+                    Guide
+                    </a>
+                </div>
+            </div>
+            {/* <!-- End Content --> */}
+        </div>
+    </div>
+    <Footer/>
+        </>
+    )
+}
