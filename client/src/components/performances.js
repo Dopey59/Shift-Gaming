@@ -20,7 +20,7 @@ export default function Perf(){
                         <h3 className="block text-lg font-semibold text-white">Upgrade ton setup</h3>
                         </div>
                     </div>
-                    <p className="text-gray-600 text-gray-400">Passe à l'action et améliore ton skill sur tes jeux préférés.</p>
+                    <p className="text-gray-400">Passe à l'action et améliore ton skill sur tes jeux préférés.</p>
                 </div>
                 {/* <!-- End Card --> */}
 
@@ -37,7 +37,7 @@ export default function Perf(){
                         <h3 className="block text-lg font-semibold text-white">Choisis le bon item</h3>
                         </div>
                     </div>
-                    <p className="text-gray-600 text-gray-400">Optimise tes performances avec du matériel professionnel de qualité.</p>
+                    <p className="text-gray-400">Optimise tes performances avec du matériel professionnel de qualité.</p>
                 </div>
                 {/* <!-- End Card --> */}
 
@@ -53,7 +53,7 @@ export default function Perf(){
                         <h3 className="block text-lg font-semibold text-white">Save ton argent</h3>
                         </div>
                     </div>
-                    <p className="text-gray-600 text-gray-400">Rush les bonnes affaires sur nos sites partenaires.</p>
+                    <p className="text-gray-400">Rush les bonnes affaires sur nos sites partenaires.</p>
                 </div>
                 {/* <!-- End Card --> */}
 
@@ -69,7 +69,7 @@ export default function Perf(){
                         <h3 className="block text-lg font-semibold text-white">En un clic !</h3>
                         </div>
                     </div>
-                    <p className="text-gray-600 text-gray-400">Les meilleurs produits pour nos gamers, réunis en un clic.</p>
+                    <p className="text-gray-400">Les meilleurs produits pour nos gamers, réunis en un clic.</p>
                 </div>
                 {/* <!-- End Card --> */}
             </div>
