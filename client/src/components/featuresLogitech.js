@@ -6,7 +6,7 @@ export default function FeaturesSteelseries(){
 
         <>
         
-        <Fade direction='down'>
+        <Fade>
         <div id="part">
           <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 '>
             <div className='p-6'>

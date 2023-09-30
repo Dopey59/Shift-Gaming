@@ -4,10 +4,10 @@ import Banner from '../components/banniere';
 import Perf from '../components/performances';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
-import FeaturesSteelseries from '../components/featuresSteelseries';
 import FeaturesLogitech from '../components/featuresLogitech';
 import InstantFeature from '../components/instant-gaming';
 import Categorie from '../components/categorie';
+import FeaturesBoulanger from './featuresBoulanger';
 
 export default function Homepage(){
     
@@ -23,7 +23,7 @@ export default function Homepage(){
             </div>
             <div className='bg-gradient-to-tr from-zinc-800 to-slate-900 text-white
                 sm:p-12'>
-                <FeaturesSteelseries />
+                <FeaturesBoulanger />
                 <FeaturesLogitech />
             </div>
             <div className='bg-gradient-to-tr from-zinc-900 to-slate-900 text-white'>

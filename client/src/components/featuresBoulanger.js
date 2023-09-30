@@ -1,26 +1,26 @@
 import { Fade } from "react-awesome-reveal";
 
-export default function FeaturesSteelseries(){
+export default function FeaturesBoulanger(){
     return(
         //  <!-- Features -->
 
         <>
         
-        <Fade direction='down'>
+        <Fade>
         <div id="part">
           <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 '>
             <div className='p-6'>
-              <img src='./steelseries.png' alt="logo steelseries partenaire" className='w-60 h-auto'/>
+              <img src='https://singledayfrance.com/asiadeal/uploads/2019/10/singleday-boulanger-740x370.png' alt="logo steelseries partenaire" className='w-60 rounded-xl h-auto'/>
             </div>
             <div className='sm:w-1/2 flex flex-col items-center gap-4'>
               <h1 className='text-xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl '>
-                Découvre la puissance avec Steelseries
+                La boulangerie de l'high-tech
               </h1>              
-              <a
-                className="bg-orange-500 font-bold text-white p-2 text-center text-xl rounded-md hover:duration-500 transition duration-0 hover:bg-orange-600 w-full sm:w-3/5"
-                href='https://fr.steelseries.com/?gclid=Cj0KCQjwvL-oBhCxARIsAHkOiu36g0FuJkNzBpOemRS6W_elngPs_gVqi5mzo1JIVyUgHH3wQm2EQPkaAi15EALw_wcB'>
-                Voir
-              </a>
+              <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
+                <div className="group w-96 h-auto flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
+                    En profiter
+                </div>
+            </a>  
             </div>
           </div>
         </div>
@@ -34,8 +34,10 @@ export default function FeaturesSteelseries(){
             <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Un stuff de qualité exceptionnelle</span>
-            <span className="hidden lg:block mt-2 text-gray-200">Produits sont robustes, durables et conçus pour résister aux rigueurs d'une utilisation intensive par les joueurs.</span>
+            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Large Gamme d'Ordinateurs et de Périphériques</span>
+            <span className="hidden lg:block mt-2 text-gray-200">Trouve ton stuff rare avec leurs large catalogue de produits informatique.
+             Que ce soit pour le gaming, le travail ou le divertissement. 
+           </span>
             </span>
         </span>
         </button>
@@ -46,9 +48,9 @@ export default function FeaturesSteelseries(){
             <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Performance de Pointe</span>
+            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Service de Conseil et d'Assistance</span>
                 <span className="hidden lg:block mt-2 text-gray-200">
-                Capteurs de précision, des switches mécaniques et un éclairage RVB personnalisable pour offrir aux joueurs un avantage compétitif.
+                Boulanger offre un service de conseil expert pour aider les clients à choisir les produits informatiques qui correspondent le mieux à leurs besoins.
                 </span>
             </span>
         </span>
@@ -60,9 +62,9 @@ export default function FeaturesSteelseries(){
             <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Innovation et design</span>
+            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Livraison et Installation à Domicile</span>
             <span className="hidden lg:block mt-2 text-gray-200">
-            SteelSeries offrent des designs élégants et ergonomiques qui plaisent aux joueurs.
+            Boulanger propose des services de livraison et d'installation à domicile, ce qui facilite la mise en service de nouveaux équipements informatiques.
             </span>
             </span>
         </span>
@@ -78,7 +80,7 @@ export default function FeaturesSteelseries(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:bg-gray-700 dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="./steel3.webp" alt="z"/>
+                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2078&q=80" alt="z"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -95,7 +97,7 @@ export default function FeaturesSteelseries(){
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="./steel3.webp" alt="y"/>
+                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2078&q=80" alt="y"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
@@ -109,7 +111,7 @@ export default function FeaturesSteelseries(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-700 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="./steel4.jpeg" alt="w"/>
+                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="w"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -126,7 +128,7 @@ export default function FeaturesSteelseries(){
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="./steel4.jpeg" alt="12"/>
+                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="12"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
@@ -141,7 +143,7 @@ export default function FeaturesSteelseries(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:bg-gray-700 dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="./steel1.webp" alt="douze"/>
+                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1551825687-f9de1603ed8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="douze"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -158,7 +160,7 @@ export default function FeaturesSteelseries(){
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="./steel1.webp" alt="d"/>
+                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1551825687-f9de1603ed8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="d"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
