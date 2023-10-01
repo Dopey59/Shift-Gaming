@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://www.shift-gaming.fr",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -59,4 +60,5 @@
     "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.3"
   }
+  
 }
