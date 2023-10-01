@@ -16,11 +16,11 @@ export default function FeaturesBoulanger(){
               <h1 className='text-xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl '>
                 La boulangerie de l'high-tech
               </h1>              
-              <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
-                <div className="group w-96 h-auto flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
-                    En profiter
+              <a href='#' className="mr-2 inline-block text-white text-sm">
+                <div className="group w-96 h-auto flex justify-center bg-blue-600 hover:bg-white/[.1] border border-blue-700 p-2 pl-4 rounded-full shadow-md">
+                    Voir
                 </div>
-            </a>  
+              </a>  
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function FeaturesBoulanger(){
             </svg>
             <span className="md:grow md:ml-5">
             <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Large Gamme d'Ordinateurs et de Périphériques</span>
-            <span className="hidden lg:block mt-2 text-gray-200">Trouve ton stuff rare avec leurs large catalogue de produits informatique.
+            <span className="hidden lg:block mt-2 text-gray-200">
              Que ce soit pour le gaming, le travail ou le divertissement. 
            </span>
             </span>
@@ -93,7 +93,6 @@ export default function FeaturesBoulanger(){
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 </div>
-                <div className="flex justify-center items-center w-full h-full bg-gray-200 text-[.25rem]  rounded-sm sm:text-[.5rem] dark:bg-gray-700 dark:text-gray-200">www.game-n-tech.fr</div>
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
@@ -124,7 +123,6 @@ export default function FeaturesBoulanger(){
                 <span className="w-2 h-2 bg-gray-700 rounded-full"></span>
                 <span className="w-2 h-2 bg-gray-700 rounded-full"></span>
                 </div>
-                <div className="flex justify-center items-center w-full h-full bg-gray-700 text-[.25rem] text-gray-200 rounded-sm sm:text-[.5rem]">www.game-n-tech.fr</div>
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
@@ -156,7 +154,6 @@ export default function FeaturesBoulanger(){
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 </div>
-                <div className="flex justify-center items-center w-full h-full bg-gray-200 text-[.25rem]  rounded-sm sm:text-[.5rem] dark:bg-gray-700 dark:text-gray-200">www.game-n-tech.fr</div>
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">

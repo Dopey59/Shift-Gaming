@@ -1,26 +1,24 @@
 import { Fade } from "react-awesome-reveal";
 
-export default function FeaturesSteelseries(){
+export default function FeaturesAmazon(){
     return(
-        //  <!-- Features -->
-
         <>
-        
         <Fade>
         <div id="part">
           <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 '>
             <div className='p-6'>
-              <img src='./logitech.png' alt="logo steelseries partenaire" className='w-60 h-auto'/>
+              <img id="logo2" src='https://cdn.worldvectorlogo.com/logos/amazon-2.svg' alt="logo steelseries partenaire" className='w-60 h-auto rounded'/>
             </div>
             <div className='sm:w-1/2 flex flex-col items-center gap-4'>
               <h1 className='text-xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl '>
-                Plutôt bureautique ou gaming ?
+                De l'essentiel à l'extraordinaire
               </h1>              
-              <a
-                className="bg-blue-500 font-bold text-white p-2 text-center text-xl rounded-md hover:duration-500 transition duration-0 hover:bg-blue-600 w-full sm:w-3/5"
-                href='https://fr.steelseries.com/?gclid=Cj0KCQjwvL-oBhCxARIsAHkOiu36g0FuJkNzBpOemRS6W_elngPs_gVqi5mzo1JIVyUgHH3wQm2EQPkaAi15EALw_wcB'>
-                Voir
-              </a>
+              <a  href="https://www.amazon.fr/b?_encoding=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=6aa02ea3b6cb53ade1411543a096f7ef&camp=1642&creative=6746&node=340858031"
+                className="mr-2 inline-block text-white text-sm">
+                <div className="group w-96 h-auto flex justify-center bg-blue-600 hover:bg-white/[.1] border border-blue-700 p-2 pl-4 rounded-full shadow-md">
+                    Voir
+                </div>
+              </a>  
             </div>
           </div>
         </div>
@@ -35,8 +33,8 @@ export default function FeaturesSteelseries(){
             <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold dark:hs-tab-active:text-blue-500 dark:text-gray-200">Qualité de Fabrication Fiable </span>
-            <span className="hidden lg:block mt-2 text-gray-200"> Les produits Logitech sont connus pour leur durabilité et leur fiabilité. Ils sont conçus pour résister à une utilisation quotidienne.</span>
+            <span className="hs-tab-active:text-blue-600 block font-semibold dark:hs-tab-active:text-blue-500 dark:text-gray-200">Des composants à tout niveaux</span>
+            <span className="hidden lg:block mt-2 text-gray-200"> Amazon propose de nombreux périphériques informatique des plus réputés à bas prix. </span>
             </span>
         </span>
         </button>
@@ -47,9 +45,9 @@ export default function FeaturesSteelseries(){
             <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Innovation Technologique</span>
+            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Prix compétiteurs</span>
                 <span className="hidden lg:block mt-2  text-gray-200">
-                Leurs souris et claviers sans fil utilisent des technologies avancées pour une connectivité stable et des performances exceptionnelles.
+                    Les prix Amazon défient toutes concurrences, ce qui vous permet de réaliser des économies sur vos achats.
                 </span>
             </span>
         </span>
@@ -79,7 +77,7 @@ export default function FeaturesSteelseries(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:bg-gray-700 dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="./clavier_logitech.webp" alt="z"/>
+                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1624701928517-44c8ac49d93c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="z"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -92,11 +90,10 @@ export default function FeaturesSteelseries(){
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 </div>
-                <div className="flex justify-center items-center w-full h-full bg-gray-200 text-[.25rem] text-gray-800 rounded-sm sm:text-[.5rem] dark:bg-gray-700 dark:text-gray-200">www.game-n-tech.fr</div>
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="./clavier_logitech.webp" alt="y"/>
+                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1624701928517-44c8ac49d93c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="y"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
@@ -110,7 +107,7 @@ export default function FeaturesSteelseries(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-700 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="./innovation.webp" alt="w"/>
+                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="w"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -123,11 +120,10 @@ export default function FeaturesSteelseries(){
                 <span className="w-2 h-2 bg-gray-700 rounded-full"></span>
                 <span className="w-2 h-2 bg-gray-700 rounded-full"></span>
                 </div>
-                <div className="flex justify-center items-center w-full h-full bg-gray-700 text-[.25rem] text-gray-200 rounded-sm sm:text-[.5rem]">www.game-n-tech.fr</div>
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="./innovation.webp" alt="12"/>
+                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="12"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
@@ -142,7 +138,7 @@ export default function FeaturesSteelseries(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:bg-gray-700 dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="./soundsys-logitech.webp" alt="douze"/>
+                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80" alt="douze"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -155,11 +151,10 @@ export default function FeaturesSteelseries(){
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 <span className="w-2 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></span>
                 </div>
-                <div className="flex justify-center items-center w-full h-full bg-gray-200 text-[.25rem] text-gray-800 rounded-sm sm:text-[.5rem] dark:bg-gray-700 dark:text-gray-200">www.game-n-tech.fr</div>
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="./soundsys-logitech.webp" alt="d"/>
+                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80" alt="d"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
@@ -172,6 +167,4 @@ export default function FeaturesSteelseries(){
   </Fade>
  </>
     )
-    
-
 }

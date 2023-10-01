@@ -12,7 +12,7 @@ export default function InstantFeature() {
         <p className="mt-3  dark:text-gray-200">
           Jusqu'à 90% de réductions sur tes jeux préférés avec Instant Gaming!</p>
           <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
-            <div className="group flex justify-center bg-white/[.05] hover:bg-white/[.1] border border-white/[.05] p-2 pl-4 rounded-full shadow-md">
+            <div className="group flex justify-center bg-orange-600 hover:bg-white/[.1] border border-orange-700 p-2 pl-4 rounded-full shadow-md">
                 En profiter
             </div>
           </a>      

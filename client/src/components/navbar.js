@@ -24,6 +24,15 @@ export default function Navbar(){
                 <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="About">A propos</a>
                 <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/GuidePc">Guide PC</a>
                 <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/Faq">FAQ</a>
+                {/* Search Bar */}
+              {/* <div className="containerSearchBar flex items-center">
+                <input id="searchBar" className="outline-none bg-slate-800 border-b-2 border-slate-700 text-gray-400" 
+                  placeholder="Recherche"
+                  />
+                  <div class="my-4 shadow rounded-lg overflow-hidden">
+                    <table class="items min-w-full leading-normal"></table>
+                  </div>
+              </div> */}
               </div>
             </div>
           </nav>

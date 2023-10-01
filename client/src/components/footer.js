@@ -7,13 +7,15 @@ export default function Footer(){
       <div className="text-center">
         <div className="flex justify-center">
           <a className="flex-none text-xl font-semibold text-black dark:text-white" href="/" aria-label="Brand">
-            <img id="logo" className="w-48 h-auto sm:w-54" src="./shift3-removebg-preview.png" alt="logo brand game n tech"></img>
+            <img id="logo" className="w-48 h-auto sm:w-54" src="./shift3-removebg-preview.png" alt="logo shift gaming"></img>
           </a>
         </div>
         {/* <!-- End Col --> */} 
     
         <div className="mt-3 text-sm">
-          <p className="text-gray-500">Nous faisons partie de la <a className="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#">Shift</a> family.</p>
+          <p className="text-gray-500">Nous faisons partie de la 
+            <span className="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400">Shift family</span>.
+          </p>
           <p className="text-gray-500">© 2023 Shift Gaming. Tous droits réservés.</p>
         </div>
     
