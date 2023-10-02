@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 export default function Navbar(){
     return (
         <>
@@ -19,21 +22,12 @@ export default function Navbar(){
               </div>
             </div>
             <div id="navbar-with-collapse" className="hidden basis-full grow sm:block">
-              <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
-                <a className="font-small text-blue-500" href="Contact" aria-current="page">Contact</a>
-                <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="About">A propos</a>
-                <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/GuidePc">Guide PC</a>
-                <a className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/Faq">FAQ</a>
-                {/* Search Bar */}
-              {/* <div className="containerSearchBar flex items-center">
-                <input id="searchBar" className="outline-none bg-slate-800 border-b-2 border-slate-700 text-gray-400" 
-                  placeholder="Recherche"
-                  />
-                  <div class="my-4 shadow rounded-lg overflow-hidden">
-                    <table class="items min-w-full leading-normal"></table>
-                  </div>
-              </div> */}
-              </div>
+              <ul className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
+                <li className="font-small text-blue-500" href="Contact" aria-current="page"><Link to="/Contact">Contact</Link></li>
+                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="About">A propos</li>
+                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/GuidePc">Guide PC</li>
+                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/Faq">FAQ</li>
+              </ul>
             </div>
           </nav>
         </header>
