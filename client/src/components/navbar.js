@@ -23,10 +23,10 @@ export default function Navbar(){
             </div>
             <div id="navbar-with-collapse" className="hidden basis-full grow sm:block">
               <ul className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
-                <li className="font-small text-blue-500" href="Contact" aria-current="page"><Link to="/Contact">Contact</Link></li>
-                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="About">A propos</li>
-                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/GuidePc">Guide PC</li>
-                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="/Faq">FAQ</li>
+                <li className="font-small text-blue-500" aria-current="page"><Link to="/Contact">Contact</Link></li>
+                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"><Link to="/About">A propos</Link></li>
+                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"><Link to="/GuidePc">Guide Pc</Link></li>
+                <li className="font-small text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"><Link to="/Faq">FAQ</Link></li>
               </ul>
             </div>
           </nav>
