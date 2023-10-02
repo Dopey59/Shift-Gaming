@@ -16,7 +16,7 @@ export default function FeaturesBoulanger(){
               <h1 className='text-xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl '>
                 La boulangerie de l'high-tech
               </h1>              
-              <a href='#' className="mr-2 inline-block text-white text-sm">
+              <a href='https://www.boulanger.com/' className="mr-2 inline-block text-white text-sm">
                 <div className="group w-96 h-auto flex justify-center bg-blue-600 hover:bg-white/[.1] border border-blue-700 p-2 pl-4 rounded-full shadow-md">
                     Voir
                 </div>
