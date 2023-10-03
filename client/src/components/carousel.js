@@ -5,7 +5,8 @@ export default function Carousel() {
   const swiper = new Swiper('.swiper', {
     // Paramètres optionnels
     direction: 'horizontal',
-    
+    loop: true,
+
     // Si nous avons besoin de la pagination
     pagination: {
       el: '.swiper-pagination',
