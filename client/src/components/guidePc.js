@@ -1,11 +1,13 @@
 import Footer from '../components/footer';
-import Navbar from '../components/navbar';
+import NavbarPages from '../components/navbarPages';
 
 export default function GuidePc() {
     return(
         <>
         
-        <Navbar/>
+        <div className='pb-24'>
+            <NavbarPages/>
+        </div>
     {/* // <!-- Blog Article --> */}
     <div className="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
         <div className="max-w-2xl">
@@ -115,22 +117,22 @@ export default function GuidePc() {
                 </figure>
 
                 <div>
-                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
-                    " href="#">
+                    <p className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    ">
                     Bons plans
-                    </a>
-                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
-                    " href="#">
+                    </p>
+                    <p className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    ">
                     Pc Gamer
-                    </a>
-                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
-                    " href="#">
+                    </p>
+                    <p className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    ">
                     Astuces
-                    </a>
-                    <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
-                    " href="#">
+                    </p>
+                    <p className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    ">
                     Guide
-                    </a>
+                    </p>
                 </div>
             </div>
             {/* <!-- End Content --> */}

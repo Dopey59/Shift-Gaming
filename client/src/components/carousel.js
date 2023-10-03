@@ -1,0 +1,73 @@
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
+
+export default function Carousel() {
+  const swiper = new Swiper('.swiper', {
+    // Paramètres optionnels
+    direction: 'horizontal',
+    
+    // Si nous avons besoin de la pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Flèches de navigation
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  return (
+    <div className="swiper">
+      {/* Conteneur requis supplémentaire */}
+      <div className="swiper-wrapper">
+        {/* Diapositives */}
+        <div className="swiper-slide">
+          <img
+            src="https://images.unsplash.com/photo-1580610447943-1bfbef5efe07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt="Slide 1"
+          />
+          <div className="absolute flex flex-col gap-2  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+            <h1 className="sm:text-3xl text-xl font-bold">Pour une communauté de passionnés</h1>
+            <p className="sm:text-lg text-sm">De belles choses arrivent.</p>
+          </div>
+        </div>
+
+        <div className="swiper-slide">
+            <img
+                src="https://images.unsplash.com/photo-1482855549413-2a6c9b1955a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                alt="Slide 2 - manette xbox series s"
+            />
+            <div className="absolute top-1/2 left-1/2 flex flex-col gap-2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+                <h1 className="text-xl sm:text-3xl font-bold">Plus on est d'fous, plus on game</h1>
+                <p className="sm:text-lg text-sm">Shift Gaming s'adresse aussi aux joueurs consoles.</p>
+            </div>
+        </div>
+
+        <div className="swiper-slide">
+            <img
+                src="https://images.unsplash.com/photo-1636487658616-14850c8f496c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
+                alt="Slide 3 - gamer"
+            />
+            <div className="absolute top-1/2 left-1/2 flex flex-col gap-2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+                <h1 className="sm:text-3xl text-xl font-bold">"Le guild ultime pour les gamers"</h1>
+                <p className="sm:text-lg text-sm">Des trucs & astuces pour vous aider pas à pas.</p>
+            </div>
+        </div> 
+    </div>
+
+      
+
+      {/* Si nous avons besoin de la pagination */}
+      <div className="swiper-pagination"></div>
+
+      {/* Si nous avons besoin de boutons de navigation */}
+      <div className="swiper-button-prev"></div>
+      <div className="swiper-button-next"></div>
+
+      {/* Si nous avons besoin de la barre de défilement */}
+      <div className="swiper-scrollbar"></div>
+    </div>
+  );
+}

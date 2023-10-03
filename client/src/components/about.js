@@ -1,16 +1,15 @@
 import Footer from '../components/footer';
-import Navbar from '../components/navbar';
+import NavbarPages from './navbarPages';
 
 export default function About() {
     return(
         <>
-        
-        <Navbar/>
+    <div className='pb-24'>
+        <NavbarPages/>
+    </div>
     {/* // <!-- Blog Article --> */}
     <div className="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
         <div className="max-w-2xl">
-          
-
             {/* <!-- Content --> */}
             <div className="space-y-5 md:space-y-8">
                 <div className="space-y-3">
@@ -59,17 +58,8 @@ export default function About() {
 
                 <p className="text-lg flex flex-col text-gray-800 
                 ">
-                Pour toute question, commentaire ou demande de partenariat, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à vivre une expérience de jeu exceptionnelle.
-
-</p>
-
-
-                {/* <figure>
-                    <img className="w-full object-cover rounded-md border-black border-2" src="./banniere_logo.webp" alt="Exemple d'un setup gamer"/>
-                    <figcaption className="mt-3 text-sm text-center text-gray-500">
-                        www.shiftgaming.fr
-                    </figcaption>
-                </figure> */}
+                    Pour toute question, commentaire ou demande de partenariat, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à vivre une expérience de jeu exceptionnelle.
+                </p>
 
                 <div>
                     <a className=" text-gray-200 m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 

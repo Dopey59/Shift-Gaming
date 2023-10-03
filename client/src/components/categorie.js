@@ -1,5 +1,3 @@
-
-
 export default function Categorie() {   
     return(
         <>
@@ -15,13 +13,13 @@ export default function Categorie() {
         </div>
 
         <div className="flex flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 className="text-xl font-semibold text-white">
+          <h3 className="text-xl font-bold text-black">
             Amazon
           </h3>
-          <p className="mt-3 text-gray-300">
+          <p className="mt-3 text-black">
             Si vous recherchez des pc gamer pas cher ou d'autres composants informatique vous êtes à la bonne adresse. 
           </p>
-          <p className="mt-3 text-gray-400">
+          <p className="mt-3 text-gray-500">
             #PC #Cartes Graphiques #SSD #NVME #Ecrans #Consoles #Jeux..
           </p>
           <p className="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
@@ -43,10 +41,10 @@ export default function Categorie() {
         </div>
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 className="text-xl font-semibold text-white">
+          <h3 className="text-xl font-bold text-black">
             Back Market
           </h3>
-          <p className="mt-3 text-gray-300">
+          <p className="mt-3 text-black">
             Ce site propose une méthode écologique en ne revendant que du reconditionné. Empreinte carbonne réduite de 90% pour chaque achat effectué ! 
           </p>
           <p className="mt-3 text-gray-400 ">
@@ -71,10 +69,10 @@ export default function Categorie() {
         </div>
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 className="text-xl font-semibold text-white">
+          <h3 className="text-xl font-bold text-black">
             G2A
           </h3>
-          <p className="mt-3 text-gray-300">
+          <p className="mt-3 text-black">
             Vous trouves les jeux trop chers ? G2A à la solution ! Vous pourez également y trouver des abonnements Xbox & PSN moins chers.
           </p>
           <p className="mt-3 text-gray-400 ">
@@ -99,10 +97,10 @@ export default function Categorie() {
         </div>
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
-          <h3 className="text-xl font-semibold text-white">
+          <h3 className="text-xl font-bold text-black">
             KINGUIN
           </h3>
-          <p className="mt-3 text-gray-300">
+          <p className="mt-3 text-black">
             Comme ses 2 cousins : Instant Gaming et G2A, Kinguin vous proposera des clés de jeux en réductions permanentes, mais aussi des clés windows, steam et bien d'autres.
           </p>
           <p className="mt-3 text-gray-400 ">

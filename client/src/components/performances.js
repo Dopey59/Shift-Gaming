@@ -10,7 +10,7 @@ export default function Perf(){
         <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-6 md:gap-10">
                 {/* <!-- Card --> */}
-                <div className="w-full h-full shadow-lg rounded-lg p-5 bg-slate-800">
+                <div className="w-full h-full rounded-lg p-5  bg-white/[.05] hover:bg-white/[.1] border border-white/[.30] shadow-lg shadow-transparent text-white text-sm font-medium focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-white">
                     <div className="flex items-center gap-x-4 mb-3">
                         <div className="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-500 bg-blue-800">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className=" text-blue-400 bi bi-pc-display" viewBox="0 0 16 16">
@@ -26,7 +26,7 @@ export default function Perf(){
                 {/* <!-- End Card --> */}
 
                 {/* <!-- Card --> */}
-                <div className="w-full h-full shadow-lg rounded-lg p-5 bg-slate-800">
+                <div className="w-full h-full rounded-lg p-5  bg-white/[.05] hover:bg-white/[.1] border border-white/[.30] shadow-lg shadow-transparent text-white text-sm font-medium focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-white">
                     <div className="flex items-center gap-x-4 mb-3">
                         <div className="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-500 bg-blue-800">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className=" text-blue-400 bi bi-gear" viewBox="0 0 16 16">
@@ -43,7 +43,7 @@ export default function Perf(){
                 {/* <!-- End Card --> */}
 
                 {/* <!-- Card --> */}
-                <div className="w-full h-full shadow-lg rounded-lg p-5 bg-slate-800">
+                <div className="w-full h-full  rounded-lg p-5  bg-white/[.05] hover:bg-white/[.1] border border-white/[.30] shadow-lg shadow-transparent text-white text-sm font-medium focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-white">
                     <div className="flex items-center gap-x-4 mb-3">
                         <div className="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-500 bg-blue-800">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className=" text-blue-400 bi bi-percent" viewBox="0 0 16 16">
@@ -59,7 +59,7 @@ export default function Perf(){
                 {/* <!-- End Card --> */}
 
                 {/* <!-- Card --> */}
-                <div className="w-full h-full shadow-lg rounded-lg p-5 bg-slate-800">
+                <div className="w-full h-full  rounded-lg p-5  bg-white/[.05] hover:bg-white/[.1] border border-white/[.30] shadow-lg shadow-transparent text-white text-sm font-medium focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-white">
                     <div className="flex items-center gap-x-4 mb-3">
                         <div className="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-500 bg-blue-800">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-blue-400 bi bi-hand-index-thumb-fill" viewBox="0 0 16 16">

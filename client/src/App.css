@@ -2,11 +2,14 @@
   text-align: center;
 }
 .swiper {
-  height: 700px;
   width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 600px;
+}
+
+#Img{
+  background-size: cover;
+  width: 100vw;  
+  height: 30.25vw;
 }
 #logo2 {
   background-color: white;
@@ -23,6 +26,16 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .swiper {
+    width: auto;
+    height: auto;
+  }
+  .swiper-button-prev, .swiper-button-next{
+    visibility: hidden;
   }
 }
 

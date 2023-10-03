@@ -10,12 +10,12 @@ export default function FeaturesAmazon(){
               <img id="logo2" src='https://cdn.worldvectorlogo.com/logos/amazon-2.svg' alt="logo steelseries partenaire" className='w-60 h-auto rounded'/>
             </div>
             <div className='sm:w-1/2 flex flex-col items-center gap-4'>
-              <h1 className='text-xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl '>
+              <h1 className='text-xl sm:text-3xl md:text-4xl text-center lg:text-4xl xl:text-4xl text-black font-bold'>
                 De l'essentiel à l'extraordinaire
               </h1>              
               <a  href="https://www.amazon.fr/b?_encoding=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=6aa02ea3b6cb53ade1411543a096f7ef&camp=1642&creative=6746&node=340858031"
                 className="mr-2 inline-block text-white text-sm">
-                <div className="group w-96 h-auto flex justify-center bg-blue-600 hover:bg-white/[.1] border border-blue-700 p-2 pl-4 rounded-full shadow-md">
+                <div className="group sm:w-96 w-64 h-auto flex justify-center bg-blue-600 hover:bg-white/[.1] border border-blue-700 p-2 pl-4 rounded-full shadow-md">
                     Voir
                 </div>
               </a>  
@@ -26,41 +26,41 @@ export default function FeaturesAmazon(){
 
     {/* <!-- Tab Nav --> */}
     <nav className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4" aria-label="Tabs" role="tablist">
-        <button type="button" className="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-white/[.05] dark:hover:bg-gray-700 active" id="tabs-with-card-item-4" data-hs-tab="#tabs-with-card-4" aria-controls="tabs-with-card-4" role="tab">
+        <button type="button" className="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-white/[.05] dark:hover:bg-gray-200 active active" id="tabs-with-card-item-4" data-hs-tab="#tabs-with-card-4" aria-controls="tabs-with-card-4" role="tab">
         <span className="md:flex">
             <svg className="hidden md:block flex-shrink-0 md:mt-2 h-6 w-6 hs-tab-active:text-blue-600 text-gray-500 dark:hs-tab-active:text-blue-500 dark:text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
             <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold dark:hs-tab-active:text-blue-500 dark:text-gray-200">Des composants à tout niveaux</span>
-            <span className="hidden lg:block mt-2 text-gray-200"> Amazon propose de nombreux périphériques informatique des plus réputés à bas prix. </span>
+            <span className="hs-tab-active:text-blue-600 block font-semibold dark:hs-tab-active:text-blue-500 dark:text-black">Des composants à tout niveaux</span>
+            <span className="hidden lg:block mt-2 text-gray-700"> Amazon propose de nombreux périphériques informatique des plus réputés à bas prix. </span>
             </span>
         </span>
         </button>
 
-        <button type="button" className="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-white/[.05] dark:hover:bg-gray-700" id="tabs-with-card-item-5" data-hs-tab="#tabs-with-card-5" aria-controls="tabs-with-card-5" role="tab">
+        <button type="button" className="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-white/[.05] dark:hover:bg-gray-200 active" id="tabs-with-card-item-5" data-hs-tab="#tabs-with-card-5" aria-controls="tabs-with-card-5" role="tab">
         <span className="md:flex">
             <svg className="hidden md:block flex-shrink-0 md:mt-2 h-6 w-6 hs-tab-active:text-blue-600 text-gray-500 dark:hs-tab-active:text-blue-500 dark:text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-gray-200">Prix compétiteurs</span>
-                <span className="hidden lg:block mt-2  text-gray-200">
+            <span className="hs-tab-active:text-blue-600 block font-semibold  dark:hs-tab-active:text-blue-500 dark:text-black">Prix compétiteurs</span>
+                <span className="hidden lg:block mt-2  text-gray-700">
                     Les prix Amazon défient toutes concurrences, ce qui vous permet de réaliser des économies sur vos achats.
                 </span>
             </span>
         </span>
         </button>
 
-        <button type="button" className="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-white/[.05] dark:hover:bg-gray-700" id="tabs-with-card-item-6" data-hs-tab="#tabs-with-card-6" aria-controls="tabs-with-card-6" role="tab">
+        <button type="button" className="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent text-center md:text-left hover:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-white/[.05] dark:hover:bg-gray-200 active" id="tabs-with-card-item-6" data-hs-tab="#tabs-with-card-6" aria-controls="tabs-with-card-6" role="tab">
         <span className="md:flex">
             <svg className="hidden md:block flex-shrink-0 md:mt-2 h-6 w-6 hs-tab-active:text-blue-600 text-gray-500 dark:hs-tab-active:text-blue-500 dark:text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z"/>
             </svg>
             <span className="md:grow md:ml-5">
-            <span className="hs-tab-active:text-blue-600 block font-semibold dark:hs-tab-active:text-blue-500 dark:text-gray-200">Gamme de Produits Polyvalente</span>
-            <span className="hidden lg:block mt-2 text-gray-200">
+            <span className="hs-tab-active:text-blue-600 block font-semibold dark:hs-tab-active:text-blue-500 dark:text-black">Gamme de Produits Polyvalente</span>
+            <span className="hidden lg:block mt-2 text-gray-700">
             Cette diversité permet aux consommateurs de trouver des solutions adaptées à leurs besoins, que ce soit pour le travail, le jeu ou les loisirs.
             </span>
             </span>
