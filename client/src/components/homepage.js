@@ -9,6 +9,8 @@ import Categorie from '../components/categorie';
 import FeaturesBoulanger from './featuresBoulanger';
 import FeaturesAmazon from '../components/featuresAmazon';
 import Carousel from '../components/carousel';
+import CategoriePc from '../components/categoriePc';
+
 
 export default function Homepage(){
     
@@ -25,13 +27,13 @@ export default function Homepage(){
                 sm:p-12'>
                 <h1>Des partenaires puissants pour toi.</h1>
             </div>
-            <div className='bg-gray-100 text-white
-                sm:p-12'>
-                <FeaturesBoulanger />
-            </div>
             <div className=' bg-gray-100 text-white
                 sm:p-12'>
                 <FeaturesAmazon />
+            </div>
+            <div className='bg-gray-100 text-white
+                sm:p-12'>
+                <FeaturesBoulanger />
             </div>
             <div className='bg-slate-900 text-white'>
                 <InstantFeature/>
@@ -44,6 +46,9 @@ export default function Homepage(){
             <div className='bg-gray-100 p-3 md:p-5 rounded-xl'>
                 <Categorie/>
             </div>
+            {/* <div className=''>
+                <CategoriePc/>
+            </div> */}
             <div>
                 <Carousel/>
             </div>

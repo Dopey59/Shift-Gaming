@@ -112,7 +112,7 @@ export default function GuidePc() {
                 <figure>
                     <img className="w-full object-cover rounded-md border-black border-2" src="./banniere_logo.webp" alt="Exemple d'un setup gamer"/>
                     <figcaption className="mt-3 text-sm text-center text-gray-500">
-                        www.shiftgaming.fr
+                        www.shift-gaming.fr
                     </figcaption>
                 </figure>
 

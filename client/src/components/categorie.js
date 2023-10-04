@@ -17,7 +17,7 @@ export default function Categorie() {
             Amazon
           </h3>
           <p className="mt-3 text-black">
-            Si vous recherchez des pc gamer pas cher ou d'autres composants informatique vous êtes à la bonne adresse. 
+            Si tu recherches des pc gamer pas cher ou d'autres composants informatique tu es à la bonne adresse. 
           </p>
           <p className="mt-3 text-gray-500">
             #PC #Cartes Graphiques #SSD #NVME #Ecrans #Consoles #Jeux..
@@ -73,7 +73,7 @@ export default function Categorie() {
             G2A
           </h3>
           <p className="mt-3 text-black">
-            Vous trouves les jeux trop chers ? G2A à la solution ! Vous pourez également y trouver des abonnements Xbox & PSN moins chers.
+            Tu trouves les jeux trop chers ? G2A à la solution ! Vous pourez également y trouver des abonnements Xbox & PSN moins chers.
           </p>
           <p className="mt-3 text-gray-400 ">
             #Cartes cadeaux #PSN #Xbox live #DLC #Jeux..
@@ -101,7 +101,7 @@ export default function Categorie() {
             KINGUIN
           </h3>
           <p className="mt-3 text-black">
-            Comme ses 2 cousins : Instant Gaming et G2A, Kinguin vous proposera des clés de jeux en réductions permanentes, mais aussi des clés windows, steam et bien d'autres.
+            Comme ses 2 cousins : Instant Gaming et G2A, Kinguin propose des clés de jeux en réductions permanentes, mais aussi des clés windows, steam et bien d'autres.
           </p>
           <p className="mt-3 text-gray-400 ">
             #Europe #Clés #Logiciels #Pré-commandes #DLC #Jeux..

@@ -1,0 +1,257 @@
+export default function CategoriePc(){
+    return(
+        // <!-- Card Blog -->
+<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="flex py-12 sm:text-3xl text-xl font-semibold">
+        <h1>Composants PC</h1>
+    </div>
+  {/* <!-- Grid --> */}
+  <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {/* <!-- Card --> */}
+    <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+      <img 
+       className="rounded-xl h-52 w-full"
+        alt="Carte mère" 
+        src="https://images.unsplash.com/photo-1674741382863-7e26f78a7fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Cartes mères
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+          MSI / ASUS...
+        </h3>
+        <p className="mt-3 text-gray-500">
+          Choisis la carte mère qui te conviens, adapté à ta configuration..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+     {/* <!-- Card --> */}
+     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+      <img 
+       className="rounded-xl h-52 w-full"
+        alt="carte grapgique RTX Nvidia ou amd" 
+        src="https://images.unsplash.com/photo-1591489378430-ef2f4c626b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Cartes Graphiques
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+          RTX / Nvidia / AMD..
+        </h3>
+        <p className="mt-3 text-gray-500">
+          Libère la pleine puissance avec la nouvelle carte graphique de ton choix..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+     {/* <!-- Card --> */}
+     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+      <img 
+       className="rounded-xl h-52 w-full"
+        alt="Ventilateurs boitiers pc gamer" 
+        src="https://images.unsplash.com/photo-1654946541250-ab9b9a069019?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Ventilateurs Boîtiers PC 
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+         Corsaire / CoolerMaster..
+        </h3>
+        <p className="mt-3 text-gray-500">
+          Customise ton système de refroidissement pour éviter la surchauffe..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+     {/* <!-- Card --> */}
+     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+      <img 
+       className="rounded-xl h-52 w-full"
+        alt="RAM pc " 
+        src="https://images.unsplash.com/photo-1601046885687-b7bdf1306274?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Barettes de RAM
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+          DDR4 / DDRR5 / DDR6..
+        </h3>
+        <p className="mt-3 text-gray-500">
+          La RAM est très importante pour gérer plusieurs tâches en arrière plan..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+     {/* <!-- Card --> */}
+     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+      <img 
+       className="rounded-xl h-52 w-full"
+        alt="Boîtier pc gaming" 
+        src="https://images.unsplash.com/photo-1619455052599-4cded9ae462a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Boîtiers PC
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+          Petits / Moyens / Grands
+        </h3>
+        <p className="mt-3 text-gray-500">
+          La taille de ton boîtier est important pour la compatibiltié de tes composants..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full py-3 hover:bg-blue-600  px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+     {/* <!-- Card --> */}
+     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+      <img 
+       className="rounded-xl h-52 w-full"
+        alt="Ventirad cpu" 
+        src="https://images.unsplash.com/photo-1587202372616-b43abea06c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Watercooling
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+          Asus Rog / Corsair Icue..
+        </h3>
+        <p className="mt-3 text-gray-500">
+          Le Watercooling est un type de refroidissement très efficace pour le processeur..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+
+    {/* <!-- Card --> */}
+    <div className="group flex flex-col h-full bg-white border  shadow-sm rounded-xl border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+      <img 
+       className="rounded-xl h-52 w-full"
+        alt="" 
+        src="https://img.freepik.com/photos-gratuite/disposition-du-disque-dur-externe-ordinateur-portable_23-2149417034.jpg?w=1380&t=st=1696437070~exp=1696437670~hmac=d713ccf9029ee2a333095ffbcb988cc0e5b4b990b4147bb5b9f41e3883c66e14">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-rose-600 dark:text-rose-500">
+          Disques Durs
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+          SSD / NVME..
+        </h3>
+        <p className="mt-3 text-gray-500">
+          Le disque dur est essentiel pour gérer le stockage de vos jeux, logiciels etc..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+
+    {/* <!-- Card --> */}
+    <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl border-gray-200">
+      <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
+       <img 
+       className="rounded-xl h-52 w-full"
+        alt="" 
+        src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80">
+       </img>
+      </div>
+      <div className="p-4 md:p-6">
+        <span className="block mb-1 text-xs font-semibold uppercase text-amber-500">
+          CPU / Processeur
+        </span>
+        <h3 className="text-xl text-black font-semibold">
+          Ryzen / Intel
+        </h3>
+        <p className="mt-3 text-gray-500">
+          Des processeurs dernières générations pour booster ton pc..
+        </p>
+      </div>
+      <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Détails
+        </a>
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+          Voir
+        </a>
+      </div>
+    </div>
+    {/* <!-- End Card --> */}
+  </div>
+  {/* <!-- End Grid --> */}
+</div>
+// <!-- End Card Blog -->
+    )
+}
