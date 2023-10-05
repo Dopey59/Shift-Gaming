@@ -7,8 +7,10 @@ export default function CategoriePc(){
       <NavbarHome/>
         {/* <!-- Card Blog --> */}
 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <div className="flex py-12 sm:text-3xl text-xl font-semibold">
-        <h1>Composants PC</h1>
+    <div className="flex flex-col py-12 gap-6">
+        <h1 className=' sm:text-3xl text-xl font-semibold'> | Composants PC</h1>
+        <p>Chaque liens redirige vers notre partenaire proposant les prix les plus faibles pour vos composants.</p>
+        <p className='text-gray-500'> A noter : Les détails seront bientôt disponibles.</p>
     </div>
   {/* <!-- Grid --> */}
   <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
