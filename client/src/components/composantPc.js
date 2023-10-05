@@ -33,17 +33,19 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=b4b7259d1b06528a66b0ea00386cf40e&camp=1642&creative=6746&index=computers&keywords=carte mere gaming">
           Voir
         </a>
       </div>
     </div>
     {/* <!-- End Card --> */}
      {/* <!-- Card --> */}
-     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
+     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
        className="rounded-xl h-52 w-full"
@@ -63,10 +65,12 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=9b538baa7c68625deb064ea1db366cb2&camp=1642&creative=6746&index=computers&keywords=carte graphique">
           Voir
         </a>
       </div>
@@ -93,10 +97,12 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=c8b684595ebdf4af4d90d782263994df&camp=1642&creative=6746&index=computers&keywords=ventilateur_boitier_pc">
           Voir
         </a>
       </div>
@@ -123,10 +129,12 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full hover:bg-blue-600  py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=1c1a9e8e1a18fd9d88273c7dc56c83e8&camp=1642&creative=6746&index=computers&keywords=ram">
           Voir
         </a>
       </div>
@@ -153,10 +161,12 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full py-3 hover:bg-blue-600  px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 hover:bg-blue-600  px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=0702c69b3897d8f0f20cdda54799b0d7&camp=1642&creative=6746&index=computers&keywords=boîtier pc">
           Voir
         </a>
       </div>
@@ -183,10 +193,12 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=337f894a4e87491157f5c9272a633cd8&camp=1642&creative=6746&index=computers&keywords=watercooling">
           Voir
         </a>
       </div>
@@ -214,10 +226,12 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full hover:bg-blue-600 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=c2e95b5550bdfcb29741ddc06555e828&camp=1642&creative=6746&index=computers&keywords=disque_dur">
           Voir
         </a>
       </div>
@@ -245,10 +259,12 @@ export default function CategoriePc(){
         </p>
       </div>
       <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-bl-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="#">
           Détails
         </a>
-        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" href="#">
+        <a className="w-full py-3 hover:bg-blue-600 px-4 inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-gray-700 shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800" 
+          href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=3b2c91df63a5e46a4631641afc04d56a&camp=1642&creative=6746&index=computers&keywords=processeur">
           Voir
         </a>
       </div>
