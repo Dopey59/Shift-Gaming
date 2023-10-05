@@ -17,13 +17,6 @@ export default function About() {
                     ">Bienvenue sur Shift Gaming, votre destination ultime pour le monde du jeu et de la technologie. Chez Shift Gaming, nous sommes passionnés par l'univers du jeu vidéo, de la technologie et de l'innovation. Notre mission est de vous offrir une expérience unique en rassemblant les meilleurs sites de gaming et les dernières avancées technologiques, le tout sous un même toit.</p>
                 </div>
 
-                {/* <figure>
-                    <img className="w-full object-cover rounded-xl" src="https://wallpapercave.com/dwp1x/wp7203920.jpg" alt="Exemple d'un setup gamer"/>
-                    <figcaption className="mt-3 text-sm text-center text-gray-500">
-                    Un setup de qualité.
-                    </figcaption>
-                </figure> */}
-
                 <h1 className=" text-xl font-bold md:text-2xl
                 ">Ce que nous faisons :</h1>
 

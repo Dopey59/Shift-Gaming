@@ -5,7 +5,6 @@ export default function FeaturesBoulanger(){
         //  <!-- Features -->
 
         <>
-        
         <Fade>
         <div id="part">
           <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 '>
@@ -157,7 +156,7 @@ export default function FeaturesBoulanger(){
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1551825687-f9de1603ed8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="d"/>
+                <img height="auto" width="full" className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1551825687-f9de1603ed8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="d"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}

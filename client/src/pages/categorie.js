@@ -9,7 +9,7 @@ export default function Categorie() {
     <a className="group rounded-xl overflow-hidden" href="https://www.amazon.fr/b?_encoding=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=6aa02ea3b6cb53ade1411543a096f7ef&camp=1642&creative=6746&node=340858031">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://cdn.worldvectorlogo.com/logos/amazon-dark.svg" alt="Amazon site web"/>
+          <img height="auto" width="full"  className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://cdn.worldvectorlogo.com/logos/amazon-dark.svg" alt="Amazon site web"/>
         </div>
 
         <div className="flex flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
@@ -37,7 +37,7 @@ export default function Categorie() {
     <a className="group rounded-xl overflow-hidden" href="https://fr.shopping.rakuten.com/">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden sm:w-56 h-44">
-          <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://www.leparisien.fr/resizer/n9CXyU6DxxTB-P2ZvdX2kOBwEng=/arc-photo-lpguideshopping/eu-central-1-prod/public/RUQL4F7KCWA7PG2LA6Q2OHGRGA.jpg" alt="Rakuten logo"/>
+          <img height="auto" width="full"  className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://www.leparisien.fr/resizer/n9CXyU6DxxTB-P2ZvdX2kOBwEng=/arc-photo-lpguideshopping/eu-central-1-prod/public/RUQL4F7KCWA7PG2LA6Q2OHGRGA.jpg" alt="Rakuten logo"/>
         </div>
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
@@ -65,7 +65,7 @@ export default function Categorie() {
     <a className="group rounded-xl overflow-hidden" href="https://www.g2a.com/fr/">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/9/95/G2A_Limited_company_logo.jpg" alt="G2a gaming"/>
+          <img height="auto" width="full"  className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/9/95/G2A_Limited_company_logo.jpg" alt="G2a gaming"/>
         </div>
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
@@ -93,7 +93,7 @@ export default function Categorie() {
     <a className="group rounded-xl overflow-hidden" href="https://www.kinguin.net/?gclid=Cj0KCQjw1OmoBhDXARIsAAAYGSEUfxOrFI4bJAJbrS76xW2K_YdbhaIpBPFvy3hrzcw0HsepEu4xuDMaAgISEALw_wcB">
       <div className="sm:flex">
         <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 sm:h-44 h-96">
-          <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out sm:w-full sm:h-full absolute top-0 left-0 object-cover rounded-xl" src="https://static.kinguin.net/media/images/products/_kinguin-logo-800.jpg"/>
+          <img height="auto" width="full" className="group-hover:scale-105 transition-transform duration-500 ease-in-out sm:w-full sm:h-full absolute top-0 left-0 object-cover rounded-xl" src="https://static.kinguin.net/media/images/products/_kinguin-logo-800.jpg"/>
         </div>
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">

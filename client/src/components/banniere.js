@@ -10,7 +10,6 @@ export default function Banniere() {
 
     // <!-- Hero -->
     <div className="relative bg-gradient-to-r from-rose-500 to-blue-900">
-      {/* <img src='https://images.unsplash.com/photo-1580610447943-1bfbef5efe07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'></img> */}
       <div className=" relative">
         <div className="max-w-[85rem] mx-auto sm:px-6 lg:px-8 py-24 space-y-8">
           {/* <!-- Announcement Banner --> */}
@@ -37,11 +36,11 @@ export default function Banniere() {
     
           {/* <!-- Buttons --> */}
           <div className="text-center">
-            <a onClick={scrolltoId} className="inline-flex justify-center hover:cursor-pointer items-center gap-x-3 text-center  bg-white/[.05] hover:bg-white/[.1]  border-white/[.55] shadow-transparent border  text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-2 px-2 dark:focus:ring-offset-gray-800">
+            <button onClick={scrolltoId} className="inline-flex justify-center hover:cursor-pointer items-center gap-x-3 text-center  bg-white/[.05] hover:bg-white/[.1]  border-white/[.55] shadow-transparent border  text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-2 px-2 dark:focus:ring-offset-gray-800">
               <svg viewBox="0 0 24 24" width="24" height="24">
                 <path d="M12 15.0006L7.75732 10.758L9.17154 9.34375L12 12.1722L14.8284 9.34375L16.2426 10.758L12 15.0006Z" fill="rgba(255,255,255,1)"></path>
               </svg>
-            </a>
+            </button>
           </div>
           {/* <!-- End Buttons --> */}
         </div>

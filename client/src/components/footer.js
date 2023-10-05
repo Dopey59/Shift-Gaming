@@ -7,7 +7,7 @@ export default function Footer(){
       <div className="text-center">
         <div className="flex justify-center">
           <a className="flex-none text-xl font-semibold text-black dark:text-white" href="/" aria-label="Brand">
-            <img id="logo" className="w-48 h-auto sm:w-54" src={require('../assets/shift3-removebg-preview.png')}  alt="logo shift gaming"></img>
+            <img height="auto" width="full"  id="logo" className="w-48 h-auto sm:w-54" src={require('../assets/shift3-removebg-preview.png')}  alt="logo shift gaming"></img>
           </a>
         </div>
         {/* <!-- End Col --> */} 

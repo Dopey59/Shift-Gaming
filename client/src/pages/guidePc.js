@@ -23,7 +23,7 @@ export default function GuidePc() {
                 ">Il ne reste plus qu'à suivre les prochaines étapes pour ne pas te tromper !</p>
 
                 <figure>
-                    <img className="w-full object-cover rounded-xl" src="https://wallpapercave.com/dwp1x/wp7203920.jpg" alt="Exemple d'un setup gamer"/>
+                    <img height="auto" width="full" className="w-full object-cover rounded-xl" src="https://wallpapercave.com/dwp1x/wp7203920.jpg" alt="Exemple d'un setup gamer"/>
                     <figcaption className="mt-3 text-sm text-center text-gray-500">
                     Un setup de qualité.
                     </figcaption>
@@ -62,7 +62,7 @@ export default function GuidePc() {
                 "><span className='font-bold text-blue-600'> Étape 8 : Le Refroidissement</span>  
                 Considérez un système de refroidissement liquide pour le CPU pour des performances de refroidissement maximales.</p>
                 <figure>
-                    <img className="w-full object-cover rounded-xl" src="https://wallpapercave.com/dwp1x/wp4584986.png" alt="Exemple d'un setup gamer"/>
+                    <img height="auto" width="full" className="w-full object-cover rounded-xl" src="https://wallpapercave.com/dwp1x/wp4584986.png" alt="Exemple d'un setup gamer"/>
                     <figcaption className="mt-3 text-sm text-center text-gray-500">
                     Un setup de qualité.
                     </figcaption>
@@ -107,7 +107,7 @@ export default function GuidePc() {
                     ">Ces étapes vous aideront à choisir les composants idéaux pour votre PC gamer, que vous ayez un budget élevé ou limité. N'oubliez pas de faire des recherches supplémentaires sur les spécifications spécifiques des produits et de tenir compte de vos besoins personnels en matière de jeu. Bonne construction de votre PC gaming !</p>
 
                 <figure>
-                    <img className="w-full object-cover rounded-md border-black border-2" src={require('../assets/banniere_logo.webp')} alt="Exemple d'un setup gamer"/>
+                    <img height="auto" width="full" className="w-full object-cover rounded-md border-black border-2" src={require('../assets/banniere_logo.webp')} alt="Exemple d'un setup gamer"/>
                     <figcaption className="mt-3 text-sm text-center text-gray-500">
                         www.shift-gaming.fr
                     </figcaption>

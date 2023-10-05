@@ -18,6 +18,7 @@ export default function CategoriePc(){
     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
+      height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="Carte mère" 
         src="https://images.unsplash.com/photo-1674741382863-7e26f78a7fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80">
@@ -50,6 +51,7 @@ export default function CategoriePc(){
      <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
+      height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="carte grapgique RTX Nvidia ou amd" 
         src="https://images.unsplash.com/photo-1591489378430-ef2f4c626b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
@@ -82,6 +84,7 @@ export default function CategoriePc(){
      <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
+      height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="Ventilateurs boitiers pc gamer" 
         src="https://images.unsplash.com/photo-1654946541250-ab9b9a069019?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
@@ -114,6 +117,7 @@ export default function CategoriePc(){
      <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
+      height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="RAM pc " 
         src="https://images.unsplash.com/photo-1601046885687-b7bdf1306274?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
@@ -146,6 +150,7 @@ export default function CategoriePc(){
      <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
+      height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="Boîtier pc gaming" 
         src="https://images.unsplash.com/photo-1619455052599-4cded9ae462a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80">
@@ -178,6 +183,7 @@ export default function CategoriePc(){
      <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
+      height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="Ventirad cpu" 
         src="https://images.unsplash.com/photo-1587202372616-b43abea06c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
@@ -211,6 +217,7 @@ export default function CategoriePc(){
     <div className="group flex flex-col h-full bg-white border  shadow-sm rounded-xl border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
       <img 
+      height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="" 
         src="https://img.freepik.com/photos-gratuite/disposition-du-disque-dur-externe-ordinateur-portable_23-2149417034.jpg?w=1380&t=st=1696437070~exp=1696437670~hmac=d713ccf9029ee2a333095ffbcb988cc0e5b4b990b4147bb5b9f41e3883c66e14">
@@ -244,6 +251,8 @@ export default function CategoriePc(){
     <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl border-gray-200">
       <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
        <img 
+
+height="auto" width="full" 
        className="rounded-xl h-52 w-full"
         alt="" 
         src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80">

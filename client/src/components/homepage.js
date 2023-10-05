@@ -44,9 +44,6 @@ export default function Homepage(){
             <div className='bg-gray-100 p-3 md:p-5 rounded-xl'>
                 <Categorie/>
             </div>
-            {/* <div className=''>
-                <CategoriePc/>
-            </div> */}
             <div>
                 <Carousel/>
             </div>

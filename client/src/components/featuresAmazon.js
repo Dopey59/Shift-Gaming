@@ -7,13 +7,13 @@ export default function FeaturesAmazon(){
         <div id="part">
           <div className='flex flex-col sm:flex-row items-center justify-around p-4 md:p-12 '>
             <div className='p-6'>
-              <img id="logo2" src='https://cdn.worldvectorlogo.com/logos/amazon-2.svg' alt="logo steelseries partenaire" className='w-60 h-auto rounded'/>
+              <img height="auto" width="full"  id="logo2" src='https://cdn.worldvectorlogo.com/logos/amazon-2.svg' alt="logo steelseries partenaire" className='w-60 h-auto rounded'/>
             </div>
             <div className='sm:w-1/2 flex flex-col items-center gap-4'>
               <h1 className='text-xl sm:text-3xl md:text-4xl text-center lg:text-4xl xl:text-4xl text-black font-bold'>
                 De l'essentiel à l'extraordinaire
               </h1>              
-              <a  href="https://www.amazon.fr/b?_encoding=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=6aa02ea3b6cb53ade1411543a096f7ef&camp=1642&creative=6746&node=340858031"
+              <a alt="logo amazon" href="https://www.amazon.fr/b?_encoding=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=6aa02ea3b6cb53ade1411543a096f7ef&camp=1642&creative=6746&node=340858031"
                 className="mr-2 inline-block text-white text-sm">
                 <div className="group sm:w-96 w-64 h-auto flex justify-center bg-blue-600 hover:bg-white/[.1] border border-blue-700 p-2 pl-4 rounded-full shadow-md">
                     Voir
@@ -77,7 +77,7 @@ export default function FeaturesAmazon(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:bg-gray-700 dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1624701928517-44c8ac49d93c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="z"/>
+                <img height="auto" width="full" className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1624701928517-44c8ac49d93c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="carte graphique"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -93,7 +93,7 @@ export default function FeaturesAmazon(){
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1624701928517-44c8ac49d93c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="y"/>
+                <img height="auto" width="full" className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1624701928517-44c8ac49d93c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="carte graphique"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
@@ -107,7 +107,7 @@ export default function FeaturesAmazon(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-700 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="w"/>
+                <img height="auto" width="full"  className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="economie"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -123,7 +123,7 @@ export default function FeaturesAmazon(){
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="12"/>
+                <img height="auto" width="full"  className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="economie"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
@@ -138,7 +138,7 @@ export default function FeaturesAmazon(){
             {/* <!-- Mobile Device --> */}
             <figure className="hidden absolute bottom-0 left-0 z-[2] max-w-full w-60 h-auto mb-20 ml-20 lg:block">
             <div className="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:bg-gray-700 dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)]">
-                <img className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80" alt="douze"/>
+                <img height="auto" width="full"  className="max-w-full h-auto rounded-[1.25rem]" src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80" alt="setup gaming - bureau gamer - ecran gamer"/>
             </div>
             </figure>
             {/* <!-- End Mobile Device --> */}
@@ -154,7 +154,7 @@ export default function FeaturesAmazon(){
             </div>
 
             <div className="bg-gray-800 rounded-b-lg">
-                <img className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80" alt="d"/>
+                <img height="auto" width="full" className="max-w-full h-auto rounded-b-lg" src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80" alt="setup gaming - bureau gamer - ecran gamer"/>
             </div>
             </figure>
             {/* <!-- End Browser Device --> */}
