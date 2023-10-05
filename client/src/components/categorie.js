@@ -42,7 +42,7 @@ export default function Categorie() {
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
           <h3 className="text-xl font-bold text-black">
-            Back Market
+            Rakuten
           </h3>
           <p className="mt-3 text-black">
             Rakuten est une entreprise Japonaise rassemblant un vaste catalogue high tech avec des prix compétitifs et un programme de fidélité pour ses clients.
