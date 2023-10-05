@@ -1,5 +1,5 @@
 import Footer from '../components/footer';
-import NavbarHome from './navbarHome';
+import NavbarHome from '../components/navbarHome';
 
 export default function About() {
     return(

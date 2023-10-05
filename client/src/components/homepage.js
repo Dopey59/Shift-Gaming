@@ -5,7 +5,7 @@ import Perf from '../components/performances';
 import Footer from '../components/footer';
 import NavbarHome from '../components/navbarHome';
 import InstantFeature from '../components/instant-gaming';
-import Categorie from '../components/categorie';
+import Categorie from '../pages/categorie';
 import FeaturesBoulanger from './featuresBoulanger';
 import FeaturesAmazon from '../components/featuresAmazon';
 import Carousel from '../components/carousel';
