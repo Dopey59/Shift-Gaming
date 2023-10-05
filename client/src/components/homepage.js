@@ -9,8 +9,6 @@ import Categorie from '../components/categorie';
 import FeaturesBoulanger from './featuresBoulanger';
 import FeaturesAmazon from '../components/featuresAmazon';
 import Carousel from '../components/carousel';
-import CategoriePc from './composantPc';
-
 
 export default function Homepage(){
     
