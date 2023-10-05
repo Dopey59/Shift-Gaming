@@ -75,22 +75,22 @@ export default function InstantFeature() {
       {/* <!-- Grid --> */}
       <div className="mt-20 grid sm:grid-cols-12 grid-cols-8 items-center gap-y-6 gap-x-2 sm:gap-x-6 lg:gap-x-8">
         <div className=" md:block col-span-4 md:col-span-3">
-          <img className="rounded-xl max-w-full h-auto" src="./starfield-min.webp" alt="Starfield "/>
+          <img className="rounded-xl max-w-full h-auto" src={require('../assets/starfield-min.webp')} alt="Starfield "/>
         </div>
         {/* <!-- End Col --> */}
 
         <div className="col-span-4 md:col-span-3">
-          <img className="rounded-xl max-w-full h-auto" src="./mirage-min.webp" alt="Assassin's creed mirage - Ubisoft"/>
+          <img className="rounded-xl max-w-full h-auto" src={require('../assets/mirage-min.webp')} alt="Assassin's creed mirage - Ubisoft"/>
         </div>
         {/* <!-- End Col --> */}
 
         <div className="col-span-4 md:col-span-3">
-          <img className="rounded-xl max-w-full h-auto" src="./payday3.webp" alt="Payday 3 jeu"/>
+          <img className="rounded-xl max-w-full h-auto" src={require('../assets/payday3.webp')} alt="Payday 3 jeu"/>
         </div>
         {/* <!-- End Col --> */}
 
         <div className="col-span-4 md:col-span-3">
-          <img className="rounded-xl max-w-full h-auto" src="./fc24.webp" alt="fc24 football jeu"/>
+          <img className="rounded-xl max-w-full h-auto" src={require('../assets/fc24.webp')} alt="fc24 football jeu"/>
         </div>
         {/* <!-- End Col --> */}
       </div>

@@ -34,10 +34,10 @@ export default function Categorie() {
     {/* <!-- End Card --> */}
 
     {/* <!-- Card --> */}
-    <a className="group rounded-xl overflow-hidden" href="https://www.backmarket.fr/fr-fr">
+    <a className="group rounded-xl overflow-hidden" href="https://fr.shopping.rakuten.com/">
       <div className="sm:flex">
-        <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://tribune-assurance.optionfinance.fr/fileadmin/_processed_/2/8/csm_60d97d3433287_166551f695.jpg" alt="Back Market"/>
+        <div className="flex-shrink-0 relative rounded-xl overflow-hidden sm:w-56 h-44">
+          <img className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://www.leparisien.fr/resizer/n9CXyU6DxxTB-P2ZvdX2kOBwEng=/arc-photo-lpguideshopping/eu-central-1-prod/public/RUQL4F7KCWA7PG2LA6Q2OHGRGA.jpg" alt="Rakuten logo"/>
         </div>
 
         <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
@@ -45,10 +45,10 @@ export default function Categorie() {
             Back Market
           </h3>
           <p className="mt-3 text-black">
-            Ce site propose une méthode écologique en ne revendant que du reconditionné. Empreinte carbonne réduite de 90% pour chaque achat effectué ! 
+            Rakuten est une entreprise Japonaise rassemblant un vaste catalogue high tech avec des prix compétitifs et un programme de fidélité pour ses clients.
           </p>
           <p className="mt-3 text-gray-400 ">
-            #Ecologique #Performant #Offre étudiante #Pc portable #Ecrans #Consoles #Jeux..
+            #Reconditionné #High-Tech #Gaming #Ecrans #Consoles #Jeux vidéos..
           </p>
           <p className="mt-4 inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium">
             Voir
