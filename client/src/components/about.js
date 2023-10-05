@@ -1,12 +1,10 @@
 import Footer from '../components/footer';
-import NavbarPages from './navbarPages';
+import NavbarHome from './navbarHome';
 
 export default function About() {
     return(
         <>
-    <div className='pb-24'>
-        <NavbarPages/>
-    </div>
+        <NavbarHome/>
     {/* // <!-- Blog Article --> */}
     <div className="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
         <div className="max-w-2xl">

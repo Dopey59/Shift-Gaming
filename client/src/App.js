@@ -5,6 +5,8 @@ import Contact from '../src/components/ContactUs';
 import Faq from '../src/components/faq';
 import GuidePc from '../src/components/guidePc';
 import About from '../src/components/about';
+import ComposantPc from '../src/components/composantPc';
+
 
 function App(){
   return (
@@ -14,6 +16,8 @@ function App(){
         <Route path="/Faq" element={<Faq />} />
         <Route path="/GuidePc" element={<GuidePc/>} />
         <Route path="/About" element={<About/>} />
+        <Route path="/ComposantPc" element={<ComposantPc/>} />
+
     </Routes>
   )
 

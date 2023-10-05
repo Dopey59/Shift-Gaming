@@ -1,13 +1,10 @@
 import Footer from '../components/footer';
-import NavbarPages from '../components/navbarPages';
+import NavbarHome from '../components/navbarHome';
 
 export default function GuidePc() {
     return(
         <>
-        
-        <div className='pb-24'>
-            <NavbarPages/>
-        </div>
+    <NavbarHome/>
     {/* // <!-- Blog Article --> */}
     <div className="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
         <div className="max-w-2xl">
@@ -110,7 +107,7 @@ export default function GuidePc() {
                     ">Ces étapes vous aideront à choisir les composants idéaux pour votre PC gamer, que vous ayez un budget élevé ou limité. N'oubliez pas de faire des recherches supplémentaires sur les spécifications spécifiques des produits et de tenir compte de vos besoins personnels en matière de jeu. Bonne construction de votre PC gaming !</p>
 
                 <figure>
-                    <img className="w-full object-cover rounded-md border-black border-2" src="./banniere_logo.webp" alt="Exemple d'un setup gamer"/>
+                    <img className="w-full object-cover rounded-md border-black border-2" src={require('../assets/banniere_logo.webp')} alt="Exemple d'un setup gamer"/>
                     <figcaption className="mt-3 text-sm text-center text-gray-500">
                         www.shift-gaming.fr
                     </figcaption>

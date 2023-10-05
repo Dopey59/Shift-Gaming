@@ -1,6 +1,11 @@
+import Footer from '../components/footer';
+import NavbarHome from '../components/navbarHome';
+
 export default function CategoriePc(){
     return(
-        // <!-- Card Blog -->
+      <>
+      <NavbarHome/>
+        {/* <!-- Card Blog --> */}
 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div className="flex py-12 sm:text-3xl text-xl font-semibold">
         <h1>Composants PC</h1>
@@ -252,6 +257,8 @@ export default function CategoriePc(){
   </div>
   {/* <!-- End Grid --> */}
 </div>
-// <!-- End Card Blog -->
+  <Footer/>
+{/* <!-- End Card Blog --> */}
+      </>
     )
 }
