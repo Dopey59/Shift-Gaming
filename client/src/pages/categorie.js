@@ -1,6 +1,9 @@
 export default function Categorie() {   
     return(
         <>
+         <div className="flex flex-col py-12 gap-4 mx-6">
+            <h1 className='sm:text-3xl text-2xl font-semibold'> | Nos partenaires</h1>
+        </div>
 {/* <!-- Card Blog --> */}
 <div className="max-w-[90rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   {/* <!-- Grid --> */}

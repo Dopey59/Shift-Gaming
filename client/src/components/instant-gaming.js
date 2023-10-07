@@ -1,4 +1,5 @@
 import { Fade } from "react-awesome-reveal";
+import Carousel from "./carousel"
 
 export default function InstantFeature() {
     return(
@@ -10,18 +11,17 @@ export default function InstantFeature() {
           Les jeux aux plus <span className="text-blue-500 ">bas prix</span> du marché
         </h2>
         <p className="mt-3  dark:text-gray-200">
-          Jusqu'à 90% de réductions sur tes jeux préférés avec Instant Gaming!</p>
-          <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="mr-2 inline-block text-white text-sm">
-            <div className="group flex justify-center  bg-blue-600 hover:bg-white/[.1] border border-blue-700 p-2 pl-4 rounded-full shadow-md">
-                En profiter
-            </div>
-          </a>      
+          Jusqu'à 90% de réductions sur tes jeux préférés avec Instant Gaming!</p>     
       </div>
       {/* <!-- End Title --> */}
-      <Fade direction="up">
+     
+      <Fade direction="right">
+        <Carousel/>
+      <Fade/>
 
+      <Fade direction="up">
       {/* <!-- Grid --> */}
-      <div className="mx-auto max-w-3xl grid grid-cols-12 gap-6 lg:gap-8">
+      <div className="mx-auto max-w-3xl grid grid-cols-12 gap-6 mt-14 lg:gap-8">
         {/* <!-- Icon Block --> */}
         <div className="col-span-6 sm:col-span-4 text-center">
           <svg className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-gray-200" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -71,30 +71,12 @@ export default function InstantFeature() {
       </div>
       {/* <!-- End Grid --> */}
       </Fade>
-      <Fade direction="right">
-      {/* <!-- Grid --> */}
-      <div className="mt-20 grid sm:grid-cols-12 grid-cols-8 items-center gap-y-6 gap-x-2 sm:gap-x-6 lg:gap-x-8">
-        <div className=" md:block col-span-4 md:col-span-3">
-          <img height="auto" width="full"  className="rounded-xl max-w-full h-auto" src={require('../assets/starfield-min.webp')} alt="Starfield "/>
-        </div>
-        {/* <!-- End Col --> */}
 
-        <div className="col-span-4 md:col-span-3">
-          <img height="auto" width="full"  className="rounded-xl max-w-full h-auto" src={require('../assets/mirage-min.webp')} alt="Assassin's creed mirage - Ubisoft"/>
-        </div>
-        {/* <!-- End Col --> */}
-
-        <div className="col-span-4 md:col-span-3">
-          <img height="auto" width="full"  className="rounded-xl max-w-full h-auto" src={require('../assets/payday3.webp')} alt="Payday 3 jeu"/>
-        </div>
-        {/* <!-- End Col --> */}
-
-        <div className="col-span-4 md:col-span-3">
-          <img height="auto" width="full"  className="rounded-xl max-w-full h-auto" src={require('../assets/fc24.webp')} alt="fc24 football jeu"/>
-        </div>
-        {/* <!-- End Col --> */}
-      </div>
-      {/* <!-- End Grid --> */}
+      {/* <!-- Card Section --> */}
+<div class="max-w-[85rem] px-4 py-12 sm:py-12 sm:px-6 lg:px-8 lg:py-12 mx-auto">
+  {/* <!-- Grid --> */}
+</div>
+{/* <!-- End Card Section --> */}
       </Fade>
     </div>
   )
