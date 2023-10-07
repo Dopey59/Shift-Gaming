@@ -5,12 +5,14 @@ import { Fade } from "react-awesome-reveal";
 export default function CategoriePc(){
     return(
       <>
+      <NavbarHome/>
       <Fade>
-        <NavbarHome/>
         {/* <!-- Card Blog --> */}
       <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="flex flex-col py-12 gap-4">
             <h1 className='sm:text-3xl text-2xl font-semibold'> | Recherche par composant PC</h1>
+            <p className='text-gray-400 mx-4 text-sm'>A noter : Les détails seront bientôt disponibles</p>
+
         </div>
         {/* <!-- Grid --> */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -284,9 +286,9 @@ export default function CategoriePc(){
         </div>
         {/* <!-- End Grid --> */}
       </div>
-        <Footer/>
       {/* <!-- End Card Blog --> */}
       </Fade>
+        <Footer/>
       </>
     )
 }
