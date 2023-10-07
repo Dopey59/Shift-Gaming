@@ -1,14 +1,12 @@
 import { Fade } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
 
-
-
 export default function CategoriePc(){
     return(
       <>
-      <Fade>
+      <Fade duration={1500}>
         <div className="flex flex-col py-12 gap-4 mx-6">
-            <h1 className='sm:text-3xl text-2xl font-semibold'> | Catégories</h1>
+            <h1 id="part" className='sm:text-3xl text-2xl font-semibold'> | Catégories</h1>
         </div>
         {/* <!-- Card Blog --> */}
         <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 lg:py-14 mx-auto pb-6">
@@ -23,18 +21,18 @@ export default function CategoriePc(){
                         </img>
                     </div>
                     <div className="p-4 md:p-6">
-                    <span className="block mb-1 text-xs font-semibold uppercase text-green-500">
-                        Disponible
-                    </span>
-                    <h3 className="text-xl text-black font-semibold">
-                        Composants
-                    </h3>
-                    <p className="mt-3 text-gray-500">
-                        Personnalise ton pc avec du matériel à un rapport qualité/prix étonnant.
-                    </p>
-                    <p className="mt-3 text-gray-500">
-                        #Amazon
-                    </p>
+                        <span className="block mb-1 text-xs font-semibold uppercase text-green-500">
+                            Disponible
+                        </span>
+                        <h3 className="text-xl text-black font-semibold">
+                            Composants
+                        </h3>
+                        <p className="mt-3 text-gray-500">
+                            Personnalise ton pc avec du matériel à un rapport qualité/prix étonnant.
+                        </p>
+                        <p className="mt-3 text-gray-500">
+                            #Amazon
+                        </p>
                     </div>
                     <Link to="/ComposantPc">
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
@@ -55,18 +53,18 @@ export default function CategoriePc(){
                         </img>
                     </div>
                     <div className="p-4 md:p-6">
-                    <span className="block mb-1 text-xs font-semibold uppercase text-green-500">
-                        Disponible
-                    </span>
-                    <h3 className="text-xl text-black font-semibold">
-                        Périphériques
-                    </h3>
-                    <p className="mt-3 text-gray-500">
-                        Des écrans en 240hz pas cher, des souris avec un capteur optique performant et plus !
-                    </p>
-                    <p className="mt-3 text-gray-500">
-                        #Amazon
-                    </p>
+                        <span className="block mb-1 text-xs font-semibold uppercase text-green-500">
+                            Disponible
+                        </span>
+                        <h3 className="text-xl text-black font-semibold">
+                            Périphériques
+                        </h3>
+                        <p className="mt-3 text-gray-500">
+                            Des écrans en 240hz pas cher, des souris avec un capteur optique performant et plus !
+                        </p>
+                        <p className="mt-3 text-gray-500">
+                            #Amazon
+                        </p>
                     </div>
                     <a href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=3eecbd78c00ed6f37f551beb741fece3&camp=1642&creative=6746&index=computers&keywords=peripherique gaming">
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
@@ -87,18 +85,18 @@ export default function CategoriePc(){
                         </img>
                     </div>
                     <div className="p-4 md:p-6">
-                    <span className="block mb-1 text-xs font-semibold uppercase text-green-500">
-                        Disponible
-                    </span>
-                    <h3 className="text-xl text-black font-semibold">
-                        Jeux vidéos
-                    </h3>
-                    <p className="mt-3 text-gray-500">
-                        Faites vous plaisir sur pc ou console avec des jeux, xbox live ou carte psn en réduction permanente.
-                    </p>
-                    <p className="mt-3 text-gray-500">
-                        #Instant Gaming
-                    </p>
+                        <span className="block mb-1 text-xs font-semibold uppercase text-green-500">
+                            Disponible
+                        </span>
+                        <h3 className="text-xl text-black font-semibold">
+                            Jeux vidéos
+                        </h3>
+                        <p className="mt-3 text-gray-500">
+                            Faites vous plaisir sur pc ou console avec des jeux, xbox live ou carte psn en réduction permanente.
+                        </p>
+                        <p className="mt-3 text-gray-500">
+                            #Instant Gaming
+                        </p>
                     </div>
                     <a href="https://www.instant-gaming.com/?igr=gamer-7232d0">
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
@@ -120,18 +118,18 @@ export default function CategoriePc(){
                         </img>
                     </div>
                     <div className="p-4 md:p-6">
-                    <span className="block mb-1 text-xs font-semibold uppercase text-red-500">
-                        Bientôt disponible
-                    </span>
-                    <h3 className="text-xl text-black font-semibold">
-                        Chaise gaming
-                    </h3>
-                    <p className="mt-3 text-gray-500">
-                    Plongez dans le confort ultime du gaming avec des chaises conçues pour des heures de jeu.
-                    </p>
-                    <p className="mt-3 text-gray-500">
-                        #Rekt
-                    </p>
+                        <span className="block mb-1 text-xs font-semibold uppercase text-red-500">
+                            Bientôt disponible
+                        </span>
+                        <h3 className="text-xl text-black font-semibold">
+                            Chaise gaming
+                        </h3>
+                        <p className="mt-3 text-gray-500">
+                        Plongez dans le confort ultime du gaming avec des chaises conçues pour des heures de jeu.
+                        </p>
+                        <p className="mt-3 text-gray-500">
+                            #Rekt
+                        </p>
                     </div>
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
                             <div className="w-full py-3 px-4 inline-flex text-gray-500 justify-center items-center gap-2 rounded-br-xl font-medium bg-white shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200  dark:focus:ring-offset-gray-800">
