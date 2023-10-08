@@ -97,8 +97,8 @@ export default function Recommandation(){
                 </h3>
                 <div className="flex gap-4 justify-center">
                     <p className="text-sm text-green-600 sm:text-lg">
-                    679,95€</p>      
-                    <p className="line-through text-gray-600 sm:text-lg text-sm">799,95€</p>
+                    102,88€</p>      
+                    <p className="line-through text-gray-600 sm:text-lg text-sm">195,30€</p>
                 </div>
             </div>
             </div>
