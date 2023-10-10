@@ -9,7 +9,7 @@ export default function CategoriePc(){
             <h1 id="part" className='sm:text-3xl text-2xl font-semibold'> | Catégories</h1>
         </div>
         {/* <!-- Card Blog --> */}
-        <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 lg:py-14 mx-auto pb-6">
+        <div id="categorie" className="max-w-[85rem] px-4 sm:px-6 lg:px-8 lg:py-14 mx-auto pb-6">
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="group flex flex-col h-full bg-white border shadow-sm rounded-xl  border-gray-200">
                     <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">

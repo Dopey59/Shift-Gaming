@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Footer from '../components/footer';
-import NavbarHome from '../components/navbarHome';
+import NavbarPages from '../components/navbarPages';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -47,7 +47,7 @@ export default function ContactUs() {
   return (
     <>
       <div className='pb-14'>
-        <NavbarHome/>
+        <NavbarPages/>
       </div>
       {/* <!-- Hero --> */}
       <div className="relative overflow-hidden">

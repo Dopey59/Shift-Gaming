@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import GameActivated from '../game/gameOn'
 
-export default function NavbarHome(){
+export default function NavbarPages(){
 
     return (
         <>
-        <header className="mt-1 mb-6 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full fixed top-10 text-sm">
+        <header className="mt-1 mb-6 flex flex-wrap md:justify-start md:flex-nowrap w-full text-sm">
 
           <nav id='navBg' className="mt-6 relative max-w-7xl w-full rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto bg-zinc-900 p-2 pl-4 shadow-md" aria-label="Global">
             <div className="flex items-center justify-between">

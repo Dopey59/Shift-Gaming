@@ -1,10 +1,10 @@
 import Footer from '../components/footer';
-import NavbarHome from '../components/navbarHome';
+import NavbarPages from '../components/navbarPages';
 
 export default function Faq() {
     return(
       <>
-        <NavbarHome/>
+        <NavbarPages/>
       {/* <!-- FAQ --> */}
   <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     {/* <!-- Title --> */}

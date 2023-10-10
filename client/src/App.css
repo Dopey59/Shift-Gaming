@@ -16,6 +16,11 @@
   background-color: white;
   padding: 20%;
 }
+
+/* #bgBanniere{
+
+} */
+
 #logo {
   filter: invert(93%) sepia(100%) saturate(2%) hue-rotate(301deg) brightness(105%) contrast(101%);
 }

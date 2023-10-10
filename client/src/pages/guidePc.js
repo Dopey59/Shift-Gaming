@@ -1,10 +1,10 @@
 import Footer from '../components/footer';
-import NavbarHome from '../components/navbarHome';
+import NavbarPages from '../components/navbarPages';
 
 export default function GuidePc() {
     return(
         <>
-    <NavbarHome/>
+    <NavbarPages/>
     {/* // <!-- Blog Article --> */}
     <div className="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
         <div className="max-w-2xl">

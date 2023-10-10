@@ -18,7 +18,7 @@ export default function Carousel() {
   }, []); // Le tableau vide [] signifie que cet effet ne sera exécuté qu'une seule fois après le chargement initial du composant.
 
   return (
-    <div className="swiper">
+    <div className="swiper shadow-rose-900 shadow-2xl">
       <div className="swiper-wrapper">
         <div className="swiper-slide">
           <img

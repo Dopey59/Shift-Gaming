@@ -1,11 +1,11 @@
 import Footer from '../components/footer';
-import NavbarHome from '../components/navbarHome';
+import NavbarPages from '../components/navbarPages';
 import { Fade } from "react-awesome-reveal";
 
 export default function CategoriePc(){
     return(
       <>
-      <NavbarHome/>
+      <NavbarPages/>
       <Fade>
         {/* <!-- Card Blog --> */}
       <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 lg:py-14 mx-auto">

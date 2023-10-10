@@ -1,15 +1,19 @@
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import  '../game/gameOn'
+import { useEffect } from 'react';
 
 export default function Banniere() {
+
   function scrolltoId() {
     var access = document.getElementById("part");
     access.scrollIntoView({ behavior: 'smooth' }, true);
   }
+  
 
   return (
 
     // <!-- Hero -->
-    <div className="relative bg-gradient-to-r from-rose-500 to-blue-900">
+    <div id='bgBanniere' className="relative bg-gradient-to-br from-rose-500 to-zinc-900">
       <div className=" relative">
         <div className="max-w-[85rem] mx-auto sm:px-6 lg:px-8 py-24 space-y-8">
           {/* <!-- Announcement Banner --> */}

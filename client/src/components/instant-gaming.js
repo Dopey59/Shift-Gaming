@@ -4,13 +4,13 @@ import Carousel from "./carousel"
 export default function InstantFeature() {
     return(
       // <!-- Features -->
-    <div className="max-w px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="max-w px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gradient-to-t from-zinc-900 via-zinc-900 to-zinc-900 ">
       {/* <!-- Title --> */}
       <div className="mx-auto max-w-2xl gap-y-3 flex flex-col mb-8 lg:mb-14 text-center">
         <h2 className="text-3xl lg:text-4xl font-bold ">
-          Les jeux aux plus <span className="text-blue-500 ">bas prix</span> du marché
+          Les jeux aux plus <span className="text-rose-500 ">bas prix</span> du marché
         </h2>
-        <p className="mt-3  dark:text-gray-200">
+        <p className="mt-3 dark:text-gray-200">
           Jusqu'à 90% de réductions sur tes jeux préférés avec Instant Gaming!</p>     
       </div>
       {/* <!-- End Title --> */}
