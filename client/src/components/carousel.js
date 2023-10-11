@@ -56,7 +56,7 @@ export default function Carousel() {
           <a 
           href="https://www.instant-gaming.com/fr/6442-acheter-payday-3-pc-jeu-steam/?igr=gamer-7232d0">
             <img
-              src={require('../assets/Payday3.webp')} 
+              src={require('../assets/payday3.webp')} 
               alt="payday-3"
               className='rounded-xl w-full h-auto'
             />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 // import GameActivated from '../game/gameOn'
 
@@ -7,12 +7,24 @@ export default function NavbarHome(){
     var access = document.getElementById("announce");
     access.scrollIntoView({ behavior: 'smooth' }, true);
   }
+  
+  const opacity = document.getElementById("navBg");
+  function scrollY() {
+    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+    opacity.classList.add("opacity-50");
+    console.log("zbckjzbkvzbuvzvzbjkvz");
+  
+  }
+
+  if(opacity){
+    window.addEventListener('scroll',scrollY())
+  }
 
     return (
         <>
         <header className="mt-1 mb-6 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full fixed top-10 text-sm">
 
-          <nav id='navBg' className="mt-6 relative max-w-7xl w-full rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto bg-zinc-900 p-2 pl-4 shadow-md" aria-label="Global">
+          <nav id='navBg' onScroll={scrollY} className="mt-6 relative max-w-7xl w-full rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto bg-zinc-900 p-2 pl-4 shadow-md" aria-label="Global">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className='w-4 h-4 sm:w-8 sm:h-8' fill='white' viewBox="0 0 24 24">
