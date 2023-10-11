@@ -96,7 +96,7 @@ export default function Categorie() {
             <a className="group rounded-xl overflow-hidden" href="https://www.kinguin.net/?gclid=Cj0KCQjw1OmoBhDXARIsAAAYGSEUfxOrFI4bJAJbrS76xW2K_YdbhaIpBPFvy3hrzcw0HsepEu4xuDMaAgISEALw_wcB">
               <div className="sm:flex">
                 <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 sm:h-44 h-96">
-                  <img height="auto" width="full" className="group-hover:scale-105 transition-transform duration-500 ease-in-out sm:w-full sm:h-full absolute top-0 left-0 object-cover rounded-xl" src="https://static.kinguin.net/media/images/products/_kinguin-logo-800.jpg"/>
+                  <img height="auto" alt="kinguin partenaire logo jeu pas cher" width="full" className="group-hover:scale-105 transition-transform duration-500 ease-in-out sm:w-full sm:h-full absolute top-0 left-0 object-cover rounded-xl" src="https://static.kinguin.net/media/images/products/_kinguin-logo-800.jpg"/>
                 </div>
 
                 <div className="flex-col mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">

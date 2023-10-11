@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Raleway:wght@300&display=swap');
-
 .App {
   text-align: center;
 }
 .swiper {
+  width: 900px;
+  height: 500px;
+ 
+}
+
+img{
   width: auto;
-  height: 600px;
+  height: auto;
 }
 #Img{
   background-size: cover;

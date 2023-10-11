@@ -21,62 +21,68 @@ export default function Carousel() {
     <div className="swiper shadow-rose-900 shadow-2xl">
       <div className="swiper-wrapper">
         <div className="swiper-slide">
-          <img
-            src="https://wallpapercave.com/wp/wp12593841.jpg"
-            alt="fc24-ea-sports"
-            className='rounded-md w-auto'
-          />
-          <div className="absolute top-1/2 left-1/2 flex flex-col gap-2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-            <h1 className="text-md sm:text-3xl font-bold">Actuellement à -20%</h1>
-            <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="sm:text-lg text-sm bg-orange-500 p-1 rounded">Voir le site</a>
-          </div>
+          <a 
+          href="https://www.instant-gaming.com/fr/6842-acheter-forza-motorsport-pc-xbox-series-x-s-pc-xbox-series-x-s-jeu-microsoft-store/?igr=gamer-7232d0">
+            <img
+              src={require('../assets/Forza.webp')}
+              alt="fc24-ea-sports"
+              className='rounded-md w-full h-auto'
+            />
+          </a>
         </div>
       <div className="swiper-slide">
-          <img
-            src={require('../assets/mirage-min.webp')}
-            alt="Assassin's-creed-Mirage-Ubisoft"
-            className='rounded-md'
-          />
-          <div className="absolute top-1/2 left-1/2 flex flex-col gap-2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-            <h1 className="text-md sm:text-3xl font-bold">Actuellement à -20%</h1>
-            <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="sm:text-lg text-sm bg-orange-500 p-1 rounded">Voir le site</a>
-          </div>
+          <a 
+          href="https://www.instant-gaming.com/fr/9187-acheter-ubisoft-connect-assassin-s-creed-mirage-pc-jeu-ubisoft-connect-europe/?igr=gamer-7232d0">
+            <img
+              src={require('../assets/Mirage.webp')}
+              alt="Assassin's-creed-Mirage-Ubisoft"
+              className='rounded-md w-full h-auto'
+            />
+          </a>
         </div>
         <div className="swiper-slide">
-          <img
-            src={require('../assets/starfield-min.webp')}
-            alt="starfield-bethesda"
-            className='rounded-xl'
-          />
-          <div className="absolute flex flex-col gap-2 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-            <h1 className="text-md sm:text-3xl font-bold">Actuellement à -26%</h1>
-            <a href='https://www.instant-gaming.com/?igr=gamer-7232d0' className="sm:text-lg text-sm bg-orange-500 p-1 rounded">Voir le site</a>
-          </div>
+          <a 
+          href="https://www.instant-gaming.com/fr/14584-acheter-nba-2k24-kobe-bryant-edition-pc-jeu-steam-europe/?igr=gamer-7232d0">
+            <img
+              src={require('../assets/NBA-2K24.webp')}
+              alt="Nba 2K24"
+              className='rounded-xl w-full h-auto'
+            />
+          </a>
         </div>
 
 
         <div className="swiper-slide">
-          <img
-            src={require('../assets/payday3.webp')} 
-            alt="payday-3"
-            className='rounded-xl'
-          />
-          <div className="absolute top-1/2 left-1/2 flex flex-col gap-2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-            <h1 className="text-md sm:text-3xl font-bold">Actuellement à -25%</h1>
-            <a href="https://www.instant-gaming.com/?igr=gamer-7232d0" className="sm:text-lg text-sm bg-orange-500 p-1 rounded">Voir le site</a>
-          </div>
+          <a 
+          href="https://www.instant-gaming.com/fr/6442-acheter-payday-3-pc-jeu-steam/?igr=gamer-7232d0">
+            <img
+              src={require('../assets/Payday3.webp')} 
+              alt="payday-3"
+              className='rounded-xl w-full h-auto'
+            />
+          </a>
         </div>
 
         <div className="swiper-slide">
-          <img
-            src={require('../assets/mk-min.webp')} 
-            alt="Mortal-Kombat-1"
-            className='rounded-xl'
-          />
-          <div className="absolute top-1/2 left-1/2 flex flex-col gap-2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-            <h1 className="text-md sm:text-3xl font-bold">Actuellement à -29%</h1>
-            <a href="https://www.instant-gaming.com/?igr=gamer-7232d0?igr=gamer-7232d0" className="sm:text-lg text-sm bg-orange-500 p-1 rounded">Voir le site</a>
-          </div>
+          <a 
+          href="https://www.instant-gaming.com/fr/9422-acheter-steam-mortal-kombat-1-pc-jeu-steam-europe/?igr=gamer-7232d0">
+            <img
+              src={require('../assets/Mortal-Kombat.webp')} 
+              alt="Mortal-Kombat-1"
+              className='rounded-xl w-full h-auto'
+            />
+          </a>
+        </div>
+
+        <div className="swiper-slide">
+          <a 
+          href="https://www.instant-gaming.com/fr/13588-acheter-ea-sports-fc-24-pc-jeu-ea-app/?igr=gamer-7232d0https://www.instant-gaming.com/?igr=gamer-7232d0">
+            <img
+              src={require('../assets/F24-EA.webp')} 
+              alt="FC24 - Ea sports"
+              className='rounded-xl w-full h-auto'
+            />
+          </a>
         </div>
       </div>
 

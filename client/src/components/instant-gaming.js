@@ -11,7 +11,7 @@ export default function InstantFeature() {
           Les jeux aux plus <span className="text-rose-500 ">bas prix</span> du marché
         </h2>
         <p className="mt-3 dark:text-gray-200">
-          Jusqu'à 90% de réductions sur tes jeux préférés avec Instant Gaming!</p>     
+          Jusqu'à 90% de réductions sur les jeux PC & Consoles | Xbox Pass, Cartes Psn..</p>     
       </div>
       {/* <!-- End Title --> */}
      
@@ -71,11 +71,6 @@ export default function InstantFeature() {
       </div>
       {/* <!-- End Grid --> */}
       </Fade>
-
-      {/* <!-- Card Section --> */}
-<div class="max-w-[85rem] px-4 py-12 sm:py-12 sm:px-6 lg:px-8 lg:py-12 mx-auto">
-  {/* <!-- Grid --> */}
-</div>
 {/* <!-- End Card Section --> */}
       </Fade>
     </div>

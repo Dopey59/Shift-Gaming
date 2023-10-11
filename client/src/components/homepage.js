@@ -9,9 +9,7 @@ import CategorieSection from '../components/categorieSection';
 import Stats from '../components/stats';
 import Testimonials from '../components/testimonials';
 import APropos from '../pages/aPropos';
-
 import Recommandation from '../pages/recommandation';
-// import Api from '../components/api';
 
 
 export default function Homepage(){
@@ -25,7 +23,7 @@ export default function Homepage(){
             <NavbarHome/>
 
             <Banner/>
-            {/* <Api/> */}
+            
             <Recommandation/>
 
             <CategorieSection/>

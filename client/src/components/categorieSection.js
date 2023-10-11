@@ -37,7 +37,7 @@ export default function CategoriePc(){
                     <Link to="/ComposantPc">
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
                             <div className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-black shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800">
-                                Voir
+                                Acheter
                             </div>
                         </div>
                     </Link>
@@ -69,7 +69,7 @@ export default function CategoriePc(){
                     <a href="https://www.amazon.fr/gp/search?ie=UTF8&tag=shiftgaming-21&linkCode=ur2&linkId=3eecbd78c00ed6f37f551beb741fece3&camp=1642&creative=6746&index=computers&keywords=peripherique gaming">
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
                             <div className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-black shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800">
-                                Voir
+                                Acheter
                             </div>
                         </div>
                     </a>
@@ -101,7 +101,7 @@ export default function CategoriePc(){
                     <a href="https://www.instant-gaming.com/?igr=gamer-7232d0">
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
                             <div className="w-full py-3 px-4 hover:bg-blue-600  inline-flex justify-center items-center gap-2 rounded-br-xl font-medium bg-white text-black shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200 hover:text-white dark:focus:ring-offset-gray-800">
-                                Voir
+                                Acheter
                             </div>
                         </div>
                     </a>
@@ -119,7 +119,7 @@ export default function CategoriePc(){
                     </div>
                     <div className="p-4 md:p-6">
                         <span className="block mb-1 text-xs font-semibold uppercase text-red-500">
-                            Bientôt disponible
+                            Disponible
                         </span>
                         <h3 className="text-xl text-black font-semibold">
                             Chaise gaming
@@ -132,8 +132,8 @@ export default function CategoriePc(){
                         </p>
                     </div>
                         <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-                            <div className="w-full py-3 px-4 inline-flex text-gray-500 justify-center items-center gap-2 rounded-br-xl font-medium bg-white shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200  dark:focus:ring-offset-gray-800">
-                                Indisponible
+                            <div className="w-full py-3 px-4 inline-flex hover:bg-blue-600 hover:cursor-pointer hover:text-white text-gray-500 justify-center items-center gap-2 rounded-br-xl font-medium bg-white shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200  dark:focus:ring-offset-gray-800">
+                                Acheter
                             </div>
                         </div>
                 </div>

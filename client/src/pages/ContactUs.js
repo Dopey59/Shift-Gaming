@@ -46,7 +46,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <div className='pb-14'>
+      <div>
         <NavbarPages/>
       </div>
       {/* <!-- Hero --> */}
