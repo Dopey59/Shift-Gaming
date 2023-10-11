@@ -131,11 +131,13 @@ export default function CategoriePc(){
                             #Rekt
                         </p>
                     </div>
-                        <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
-                            <div className="w-full py-3 px-4 inline-flex hover:bg-blue-600 hover:cursor-pointer hover:text-white text-gray-500 justify-center items-center gap-2 rounded-br-xl font-medium bg-white shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200  dark:focus:ring-offset-gray-800">
-                                Acheter
-                            </div>
+                    <a  href="https://track.effiliation.com/servlet/effi.click?id_compteur=22917775" target="_blank"> 
+                    <div className="mt-auto flex border-t divide-x divide-gray-200 border-gray-200 ">
+                        <div className="w-full py-3 px-4 inline-flex hover:bg-blue-600 hover:cursor-pointer hover:text-white text-gray-500 justify-center items-center gap-2 rounded-br-xl font-medium bg-white shadow-sm align-middle focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm sm:p-4 hover:border-gray-200  dark:focus:ring-offset-gray-800">
+                            Acheter
                         </div>
+                    </div>
+                    </a>
                 </div>
             </div>
         </div>
