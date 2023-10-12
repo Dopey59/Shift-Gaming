@@ -4,8 +4,14 @@ export default function Recommandation(){
         
         <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Title --> */}
-        <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+        <div className="max-w-2xl flex flex-col gap-5 mx-auto text-center mb-10 lg:mb-14">
             <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-black">Offres du mois avec Amazon</h2>
+            <a href="https://amzn.to/3QdNTQb">
+                <div className="flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
+                    <h2 className="text-red-500">Découvrir le Gaming store</h2>
+                </div>
+            </a>
         </div>
         {/* <!-- End Title --> */}
 

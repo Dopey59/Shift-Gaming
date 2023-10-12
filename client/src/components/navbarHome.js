@@ -8,29 +8,24 @@ export default function NavbarHome(){
     access.scrollIntoView({ behavior: 'smooth' }, true);
   }
   
-  const opacity = document.getElementById("navBg");
-  function scrollY() {
-    let scrollTop = window.scrollY || document.documentElement.scrollTop;
-    opacity.classList.add("opacity-50");
-    console.log("zbckjzbkvzbuvzvzbjkvz");
-  
-  }
-
-  if(opacity){
-    window.addEventListener('scroll',scrollY())
-  }
+  // const opacity = document.getElementById("navBg");
+  // function scrollY() {
+  //   let scrollTop = window.scrollY || document.documentElement.scrollTop;
+  //   opacity.classList.add("opacity-50");
+  //   console.log("zbckjzbkvzbuvzvzbjkvz");
+  // }
 
     return (
         <>
-        <header className="mt-1 mb-6 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full fixed top-10 text-sm">
+        <header className="mt-1 mb-6 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full sm:visible top-10 text-sm">
 
-          <nav id='navBg' onScroll={scrollY} className="mt-6 relative max-w-7xl w-full rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto bg-zinc-900 p-2 pl-4 shadow-md" aria-label="Global">
+          <nav id='navBg' onClick={scrolltoId} className="mt-6 relative max-w-7xl w-full rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto bg-zinc-900 p-2 pl-4 shadow-md" aria-label="Global">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className='w-4 h-4 sm:w-8 sm:h-8' fill='white' viewBox="0 0 24 24">
                   <path d="M4 14h4v7a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-7h4a1.001 1.001 0 0 0 .781-1.625l-8-10c-.381-.475-1.181-.475-1.562 0l-8 10A1.001 1.001 0 0 0 4 14z"></path>
                 </svg>
-                <h1 onClick={scrolltoId} className="flex-none text-xl font-semibold text-white hover:cursor-crosshair" aria-label="Brand">Shift GaminG</h1>
+                <h1 className="flex-none text-xl font-semibold text-white hover:cursor-crosshair" aria-label="Brand">Shift GaminG</h1>
               </div>
               <div className="md:hidden">
                 <button type="button" className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-full border  bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
@@ -46,7 +41,7 @@ export default function NavbarHome(){
             <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
               <div className="flex flex-col gap-y-4 gap-x-0 mt-1 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
                 <ul  className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
-                  <li className=" text-rose-500 font-semibold md:py-6" aria-current="page"><Link to="/">Accueil</Link></li>
+                  <li className=" text-blue-500 font-semibold md:py-6" aria-current="page"><Link to="/">Accueil</Link></li>
                   <li className=" text-white hover:text-gray-400 md:py-6text-gray-400"><Link to="/About"> A propos </Link></li>
                   <li className=" text-white hover:text-gray-400 md:py-6text-gray-400"><Link to="/Contact"> Contact </Link></li>
                 </ul>
