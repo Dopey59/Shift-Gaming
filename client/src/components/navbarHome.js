@@ -3,23 +3,12 @@ import { Link } from 'react-router-dom';
 // import GameActivated from '../game/gameOn'
 
 export default function NavbarHome(){
-  function scrolltoId() {
-    var access = document.getElementById("announce");
-    access.scrollIntoView({ behavior: 'smooth' }, true);
-  }
   
-  // const opacity = document.getElementById("navBg");
-  // function scrollY() {
-  //   let scrollTop = window.scrollY || document.documentElement.scrollTop;
-  //   opacity.classList.add("opacity-50");
-  //   console.log("zbckjzbkvzbuvzvzbjkvz");
-  // }
-
     return (
         <>
-        <header className="mt-1 mb-6 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full sm:visible top-10 text-sm">
+        <header className="mt-1 mb-6 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full sm:visible top-10 text-sm absolute">
 
-          <nav id='navBg' onClick={scrolltoId} className="mt-6 relative max-w-7xl w-full rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto bg-zinc-900 p-2 pl-4 shadow-md" aria-label="Global">
+          <nav id='navBg' className="mt-6 relative max-w-7xl w-full rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto bg-zinc-900 p-2 pl-4 shadow-md" aria-label="Global">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className='w-4 h-4 sm:w-8 sm:h-8' fill='white' viewBox="0 0 24 24">
@@ -41,7 +30,7 @@ export default function NavbarHome(){
             <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
               <div className="flex flex-col gap-y-4 gap-x-0 mt-1 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
                 <ul  className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
-                  <li className=" text-blue-500 font-semibold md:py-6" aria-current="page"><Link to="/">Accueil</Link></li>
+                  <li className=" text-red-500 font-semibold md:py-6" aria-current="page"><Link to="/">Accueil</Link></li>
                   <li className=" text-white hover:text-gray-400 md:py-6text-gray-400"><Link to="/About"> A propos </Link></li>
                   <li className=" text-white hover:text-gray-400 md:py-6text-gray-400"><Link to="/Contact"> Contact </Link></li>
                 </ul>

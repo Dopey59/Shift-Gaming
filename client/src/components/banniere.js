@@ -13,7 +13,7 @@ export default function Banniere() {
   return (
 
     // <!-- Hero -->
-    <div id='bgBanniere' className="relative bg-gradient-to-br from-rose-500 to-blue-900">
+    <div id='bgBanniere' className="relative bg-gradient-to-br from-rose-500 to-zinc-900">
       <div className=" relative">
         <div className="max-w-[85rem] mx-auto sm:px-6 lg:px-8 py-24 space-y-8">
           {/* <!-- Announcement Banner --> */}

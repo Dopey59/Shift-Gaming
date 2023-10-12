@@ -13,7 +13,6 @@
 #gamesPartner {
   width: 100%;
   max-height: 700px;
-  transform: scaleX(-1);
 }
 
 img{
