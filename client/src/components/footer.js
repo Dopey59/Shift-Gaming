@@ -6,7 +6,7 @@ export default function Footer(){
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* <!-- Title --> */}
         <div class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
-          <h2 class="text-gray-600 ">Nos partenaires nous font confiance et des milliers d'entres vous aussi.</h2>
+          <h2 class="text-gray-600 ">Nos partenaires nous font confiance et des milliers d'entre vous aussi.</h2>
         </div>
         {/* <!-- End Title --> */}
 
@@ -33,7 +33,7 @@ export default function Footer(){
           
               <div className="mt-3 text-sm">
                 <p className="text-gray-500">Nous faisons partie de la 
-                  <span className=" text-rose-500"> Shift family</span>.
+                  <span className=" text-blue-500"> Shift family</span>.
                 </p>
                 <p className="text-gray-500">© 2023 Shift Gaming. Tous droits réservés.</p>
               </div>

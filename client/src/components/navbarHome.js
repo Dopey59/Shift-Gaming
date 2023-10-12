@@ -41,7 +41,7 @@ export default function NavbarHome(){
             <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
               <div className="flex flex-col gap-y-4 gap-x-0 mt-1 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
                 <ul  className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
-                  <li className=" text-rose-500 font-semibold md:py-6" aria-current="page"><Link to="/">Accueil</Link></li>
+                  <li className=" text-blue-500 font-semibold md:py-6" aria-current="page"><Link to="/">Accueil</Link></li>
                   <li className=" text-white hover:text-gray-400 md:py-6text-gray-400"><Link to="/About"> A propos </Link></li>
                   <li className=" text-white hover:text-gray-400 md:py-6text-gray-400"><Link to="/Contact"> Contact </Link></li>
                 </ul>
