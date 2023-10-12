@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
+import '../App.css'
 
 export default function CategoriePc(){
     return(
@@ -7,10 +8,12 @@ export default function CategoriePc(){
         <div className="flex flex-col">
             <div id="part" className="bannerOne relative">
                 <img 
+                    width="100%"
+                    height="auto"
                     id="gamesPartner"
                     className="w-full h-auto"
-                    src="https://images.unsplash.com/photo-1598550473359-433795503a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                    alt="Votre image"
+                    src={require('../assets/chaise.webp')}
+                    alt="chaise gaming + rekt"
                 />
                 <div className="max-w-2xl mx-auto ">
                     <div className="hs-accordion-group flex">
@@ -41,10 +44,12 @@ export default function CategoriePc(){
             </div>
             <div className="bannerTwo relative">
                 <img 
+                    width="100%"
+                    height="auto"
                     id="gamesPartner"
                     className="w-full h-auto"
-                    src="https://images3.alphacoders.com/589/589031.jpg"
-                    alt="Votre image"
+                    src={require('../assets/gta.webp')}
+                    alt="instant gaming + kinguin + g2a"
                 />
                 <div className="max-w-2xl mx-auto">
                     <div className="hs-accordion-group">
@@ -76,10 +81,12 @@ export default function CategoriePc(){
             </div>
             <div className="bannerOne relative">
                 <img 
+                    width="100%"
+                    height="auto"
                     id="gamesPartner"
                     className="w-full h-auto"
-                    src="https://images.unsplash.com/photo-1667380649409-0ba925fbaa9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                    alt="Votre image"
+                    src={require('../assets/hightech.webp')}
+                    alt="amazon + rakuten"
                 />
                 <div className="max-w-2xl mx-auto">
                     <div className="hs-accordion-group">

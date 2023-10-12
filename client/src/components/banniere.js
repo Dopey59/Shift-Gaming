@@ -28,14 +28,14 @@ export default function Banniere() {
     
           {/* <!-- Title --> */}
           <div className="max-w-3xl text-center mx-auto">
-            <h1 className="block font-medium text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="block font-medium text-white text-2xl sm:text-4xl">
               Le meilleur matériel rencontre la victoire ultime.
             </h1>
           </div>
           {/* <!-- End Title --> */}
     
           <div className="max-w-3xl text-center mx-auto">
-            <h1 className="text-lg text-white">Améliore ton expérience de jeu aujourd'hui.</h1>
+            <h1 className="text-sm sm:text-lg text-white">Améliore ton expérience de jeu aujourd'hui.</h1>
           </div>
     
           {/* <!-- Buttons --> */}
