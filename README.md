@@ -1,4 +1,4 @@
-# Game-N-Tech
+# Shift Gaming
 
 Voici mon premier projet personnel en tant que développeur web, dédié aux addicts du gaming.  
 
