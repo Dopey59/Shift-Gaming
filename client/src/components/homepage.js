@@ -11,6 +11,8 @@ import Stats from '../components/stats';
 import Testimonials from '../components/testimonials';
 import APropos from '../pages/aPropos';
 import Recommandation from '../pages/recommandation';
+import APIData from '../pages/apidata';
+
 
 
 export default function Homepage(){
@@ -27,7 +29,10 @@ export default function Homepage(){
             <NavbarHome/>
 
             <Banner/>
-                    
+            <div className="bg-gray-100">
+                <APIData/>
+            </div>
+
             <Recommandation/>
 
             <CategorieSection/>

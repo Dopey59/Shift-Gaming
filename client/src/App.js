@@ -6,6 +6,8 @@ import Faq from '../src/pages/faq';
 import GuidePc from '../src/pages/guidePc';
 import About from '../src/pages/about';
 import ComposantPc from '../src/pages/composantPc';
+import Apidata from '../src/pages/apidata';
+
 
 function App(){
   return (
@@ -16,6 +18,8 @@ function App(){
         <Route path="/GuidePc" element={<GuidePc/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/ComposantPc" element={<ComposantPc/>} />
+        <Route path="/RektGaming" element={<Apidata/>} />
+
     </Routes>
   )
 
