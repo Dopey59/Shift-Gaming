@@ -8,19 +8,6 @@ import { CookiesProvider } from 'react-cookie';
 import('preline');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// // Polyfill for closest() method
-// if (!Element.prototype.closest) {
-//   Element.prototype.closest = function (selector) {
-//     var el = this;
-//     while (el) {
-//       if (el.matches(selector)) {
-//         return el;
-//       }
-//       el = el.parentElement;
-//     }
-//     return null;
-//   };
-// }
 
 root.render(
   <BrowserRouter>

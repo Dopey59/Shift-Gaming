@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+
+
+<meta add_header="Content-Security-Policy" content="default-src * ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com/gtag/js?id=G-33N3B1PFJE;
+">
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/shift_logo(1).webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Shift Gaming rassemble les pionniers du gaming en vous proposant des produits de qualité, avec un rapport qualité-prix exceptionnel, ainsi que des conseils pour optimiser votre expérience sur PC. Découvrez des réductions exclusives pour tous types de plateformes et jeux de votre choix."
+      content="Shift Gaming : Votre Destination pour le Monde du Jeu Vidéo ! Découvrez un univers de passion, d'astuces et de réductions exclusives sur les meilleurs produits.."
     />
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -25,8 +30,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Shift Gaming</title>
+    <title>Shift Gaming - Réductions Jeux vidéos et matériels informatiques</title>
   </head>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-33N3B1PFJE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-33N3B1PFJE');
+  </script>
 
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
